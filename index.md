@@ -1,47 +1,50 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: Data-Cloud
+subtitle: A Learning Hub for Advanced Data Structures and Algorithms
 layout: page
 callouts: home_callouts
 show_sidebar: true
 ---
 
-# Bulma Clean Theme demo website
+# Welcome to Data-Cloud
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
+Data-Cloud is a platform dedicated to providing high-quality learning materials, tutorials, and resources on **Advanced Data Structures and Algorithms**. Whether you're a student, researcher, or coding enthusiast, you'll find everything you need to master complex algorithms and data structures.
 
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
-![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
+## 📚 Learning Materials
 
-## Ruby Gem
+Explore a curated collection of in-depth explanations, notes, and practical implementations on topics such as:
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+- Graph Algorithms (Dijkstra, A*)
+- Advanced Trees (Segment Trees, Fenwick Trees, AVL Trees)
+- Hashing & Caching Techniques
+- Dynamic Programming Strategies
+- String Algorithms (KMP, Rabin-Karp)
+- Computational Geometry
+- And much more...
 
-## Documentation
+## 🚀 Tutorials & Code Implementations
 
-For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
+Check out hands-on coding tutorials and problem-solving guides to enhance your skills. All tutorials include step-by-step explanations and code snippets in **Python, C++, and Java**.
 
-## Page Layouts
+## 📖 Documentation
 
-This demo site showcases the available page layout options. 
+For more details on how to navigate and use this website, visit the [Documentation](/data-cloud/docs/).
 
-* Sidebar
-* Menubar
-* Tabs
-* Footer
-* Hero
-* Contents
-* Landing Page With Callouts
-* Promo Page
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
+## 📌 Features of Data-Cloud
 
-## Supported By JetBrains
+This platform provides:
+- 📂 Organized Course Materials
+- 🎯 Topic-Wise Coding Challenges
+- 🔗 Links to Research Papers & Blogs
+- 🛠 Tools & Visualizations
+- 📢 Community Discussions
 
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+## ⭐ Get Involved
 
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+We encourage collaboration! If you have valuable resources to contribute or want to help improve the site, check out our **GitHub Repository** and make a pull request.
+
+[![GitHub](https://img.shields.io/github/stars/Data-cloud02/data-cloud?style=social)](https://github.com/Data-cloud02/data-cloud)
+
+---
+
+🔗 **Start Exploring Now!** 🚀
