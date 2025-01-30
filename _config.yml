@@ -1,32 +1,22 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Data-Cloud
+tagline: Advanced Data Structures and Algorithms
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  A learning platform providing resources and materials for Advanced Data Structures and Algorithms.
+baseurl: "/data-cloud"
+url: "https://Data-cloud02.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
+#theme_color: '#004488'
 #fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
 
 paginate: 5
 paginate_path: "/blog/page:num"
 
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: csrhymes
 
-
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -50,25 +40,23 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
-  # load_paths: 
-    # - node_modules
 
-#google_analytics: UA-code-here
+# Google Analytics (Optional)
+# google_analytics: UA-code-here
+
 cookie_policy: /cookie-policy/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       show_sidebar: true
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Data-Cloud"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
@@ -76,20 +64,20 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: example_footer_menu
+footer_menu: data_cloud_footer_menu
 
+# Collections (For organizing content)
 collections:
-  products: 
+  materials: 
     output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+    layout: material
+    show_sidebar: true
+  tutorials:
+    output: true
+    layout: tutorial
+    show_sidebar: true
 
-social:
-  facebook: https://www.facebook.com/
-  instagram: https://www.instagram.com/
-  threads: https://www.threads.net/
-  tiktok: https://www.tiktok.com/
-  x: https://www.x.com/
-  youtube: https://www.youtube.com/
-  
+
+
+
+
