@@ -1,21 +1,39 @@
-- name: Docs
-  link: /docs/
-- name: Example Pages
+- name: Home
+  link: /
+
+- name: Roadmap
+  link: /roadmap/
+
+- name: Learning Materials
   link: /#
   dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Promo Page
-      link: /promo-page/
-    - name: Sponsors Page
-      link: /sponsors/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-- name: Blog
-  link: /blog/
+    - name: Getting Started
+      link: /getting-started/
+    - name: Week 1
+      link: /week-1/
+    - name: Week 2
+      link: /week-2/
+    - name: Week 3
+      link: /week-3/
+    - name: Week 4
+      link: /week-4/
+    - name: Week 5
+      link: /week-5/
+
+- name: Resources
+  link: /#
+  dropdown:
+    - name: Practice Problems
+      link: /practice-problems/
+    - name: Code Examples
+      link: /code-examples/
+    - name: Interview Preparation
+      link: /interview-prep/
+    - name: Books & References
+      link: /books/
+
+- name: Objectives
+  link: /objectives/
+
+- name: About
+  link: /about/
