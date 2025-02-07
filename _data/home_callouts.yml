@@ -1,14 +1,16 @@
 style: is-light
 items:
+  -  - title: "Introduction to Advanced Data Structures & Algorithms"
+    subtitle: "Develop algorithmic thinking with structured learning. Master procedural and object-oriented design through interactive content."
+    icon: fa-laptop-code
   - title: "Structured Learning Roadmap"
-    subtitle: "Follow a step-by-step guide to master DSA."
-    icon: fa-map
-  - title: "Interactive Practice Problems"
-    subtitle: "Solve coding challenges with solutions and explanations."
-    icon: fa-code
-  - title: "Interview Preparation"
-    subtitle: "Get ready for FAANG and top tech interviews."
-    icon: fa-briefcase
-  - title: "Free & Open Source"
-    subtitle: "Built by the community for the community."
-    icon: fa-globe
+    subtitle: "Follow a guided curriculum to systematically understand ADSA concepts, from fundamentals to advanced techniques."
+    icon: fa-route
+  - title: " Learning materials"
+    subtitle: "Access well-organized study materials, curated notes, and additional learning resources."
+    icon: fa-book
+ 
+
+ 
+
+ 
