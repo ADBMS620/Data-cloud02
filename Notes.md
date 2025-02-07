@@ -1,4 +1,3 @@
----
 layout: page
 title: Learning Materials
 menubar: docs_menu
@@ -8,11 +7,19 @@ show_sidebar: false
 
 Access structured **week-wise** learning materials:
 
-- **[Week 1: Introduction to ADS](/docs/week-1/)** – Basics of Data Structures, Big-O Notation, Arrays & Linked Lists.
-- **[Week 2: Sorting & Searching](/docs/week-2/)** – Merge Sort, Quick Sort, Binary Search & Applications.
-- **[Week 3: Recursion & Backtracking](/docs/week-3/)** – Recursion Trees, Permutations, N-Queens Problem.
+- **[Week 1: Python Revision and Sorting Algorithm](/docs/week-1/)**
+  
+  - **[Bubble Sort](/docs/week-1/bubble-sort/)**
+  - **[Insertion Sort](/docs/week-1/insertion-sort/)**
+- **[Week 2: Analysing Programs](/docs/week-2/)**
 
-
+  - **[Binary Heap](/docs/week-2/binary-heap/)**
+  - **[Heapsort](/docs/week-2/heapsort/)**
+  - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
+- **[Week 3: Divide and Conquer](/docs/week-3/)**
+  - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
+  - **[Merge Sort](/docs/week-3/merge-sort/)**
+ 
 ---
 
 ### 💡 Need Help?
