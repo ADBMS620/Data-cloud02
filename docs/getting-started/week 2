@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heapsort Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background: #e8e8e8;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #e8e8e8;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Heapsort</h1>
+        <p>Heapsort is a comparison-based sorting algorithm that builds a binary heap data structure and repeatedly extracts the maximum element to sort a given array.</p>
+        
+        <h2>Goals</h2>
+        <p>By the end of this lesson, you should be able to:</p>
+        <ul>
+            <li>Implement heapsort using iteration.</li>
+        </ul>
+        
+        <h2>Keywords</h2>
+        <p>binary heap, heap property, heapify, heapsort</p>
+        
+        <h2>Introduction</h2>
+        <p>The idea of heapsort is simple. For any arbitrary array, we can sort the integers in the array by first building a max-heap. Once the max-heap is built, we swap the root node with the last element and then exclude it from our heap. We restore the max-heap property and repeat until the heap is empty.</p>
+        
+        <h2>Problem Statement</h2>
+        <p><strong>Input:</strong> Array of integers<br>
+           <strong>Output:</strong> None (in-place sorting)<br>
+           <strong>Process:</strong> Sort the elements of the array using heapsort.</p>
+        
+        <h2>Test Cases</h2>
+        <p>Given the array:</p>
+        <pre>[1, 2, 8, 7, 14, 9, 3, 10, 4, 16]</pre>
+        <p>Steps to sort:</p>
+        <ol>
+            <li>Build a max-heap.</li>
+            <li>Swap the root with the last element and exclude it from the heap.</li>
+            <li>Restore the max-heap property.</li>
+            <li>Repeat until the heap is empty.</li>
+        </ol>
+        <p>Final sorted array:</p>
+        <pre>[1, 2, 3, 4, 7, 8, 9, 10, 14, 16]</pre>
+        
+        <h2>Design of Algorithm</h2>
+        <p>Steps in pseudocode:</p>
+        <pre>
+function heapsort(arr):
+    buildMaxHeap(arr)
+    for i from end of array down to 1:
+        swap(arr[0], arr[i])
+        maxHeapify(arr, 0, i)
+        </pre>
+    </div>
+</body>
+</html>
