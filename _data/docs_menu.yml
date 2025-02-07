@@ -1,7 +1,7 @@
 - label: Getting started
   items:
     - name: week 1
-      link: /docs/getting-started/installation/
+      link: /docs/getting-started/week_1/
     - name: week 2
       link: /docs/getting-started/upgrading-to-v1/
     - name: week 3
