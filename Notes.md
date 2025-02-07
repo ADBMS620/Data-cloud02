@@ -7,18 +7,18 @@ show_sidebar: false
 
 Access structured **week-wise** learning materials:
 
-- **[Week 1: Python Revision and Sorting Algorithm](/docs/week-1/)**
+- **[Week 1: Python Revision and Sorting Algorithm]**
   
-  - **[Bubble Sort](/docs/week-1/bubble-sort/)**
-  - **[Insertion Sort](/docs/week-1/insertion-sort/)**
-- **[Week 2: Analysing Programs](/docs/week-2/)**
+  - **[Bubble Sort]**
+  - **[Insertion Sort]**
+- **[Week 2: Analysing Programs]**
 
-  - **[Binary Heap](/docs/week-2/binary-heap/)**
-  - **[Heapsort](/docs/week-2/heapsort/)**
-  - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
-- **[Week 3: Divide and Conquer](/docs/week-3/)**
-  - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
-  - **[Merge Sort](/docs/week-3/merge-sort/)**
+  - **[Binary Heap]**
+  - **[Heapsort]**
+  - **[Analysing Computation Time]**
+- **[Week 3: Divide and Conquer]**
+  - **[Divide and Conquer]**
+  - **[Merge Sort]**
  
 ---
 
