@@ -3,7 +3,7 @@ title: Data-Cloud
 subtitle: A Learning Hub for Advanced Data Structures and Algorithms
 layout: page
 callouts: home_callouts
-show_sidebar: true
+show_sidebar: false
 ---
 
 # Welcome to Data-Cloud
