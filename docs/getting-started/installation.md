@@ -7,47 +7,49 @@ show_sidebar: false
 toc: true
 ---
 
-## Use the Gem with Jekyll
+## Bubble Sort Algorithm
 
-{% include notification.html message="V1.x of this theme requires Jekyll <= 4.3 to be compatible with Bulma v1." %}
+Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+Goals
+By the end of this lesson, you should be able to:
 
-Add this line to your Jekyll site's `Gemfile`:
+describe bubble sort algorithm steps and ways to optimise them.
+implement bubble sort algorithm to sort a sequence of number.
+Keywords
+sorting, bubble sort
 
-```ruby
-gem "bulma-clean-theme",  '1.0.0'
-```
+The best way to practice your programming skills is by writing actual code. One of the common computation is to sort some items in some way. For example, sorting a number from smallest to biggest or names from A to Z. In this notebook, we will describe some sorting algorithms which you can implement in Python.
 
-And add this line to your Jekyll site's `_config.yml`:
+A Note about Show Pseudocode Button
+Throughout these notes, you will see a button that says Show Pseudocode as shown below. Go ahead and click it.
 
-```yaml
-theme: bulma-clean-theme
-```
+Show Pseudocode
+Another thing about pseudocode is that it is not a Python code.
 
-And then execute:
+Pseudocode ≠ Code
+Do not copy and paste the pseudocode into any Python interpreter or Jupyter notebook cell and expect it to work. There is a good reason why it is called pseudocode and not pythoncode. See definition of pseudo.
 
-    $ bundle
+Bubble Sort
+Bubble sort is one of the simplest sorting algorithms. We will be following the PCDIT framework (Problem statement, Test Cases, Design of Algorithm, Implementation, and Testing) in describing the steps of these algorithms.
 
-Or install it yourself as:
+Problem Statement
+The problem is specified as follows. Given a sequence of numbers, write some steps to sort the sequence in some order. Usually, we will sort the sequence from the smallest to the largest.
 
-    $ gem install bulma-clean-theme
+### Algorithm Steps:
+1. Compare the first element with the second element.
+2. If the first element is greater than the second, swap them.
+3. Continue comparing adjacent elements and swapping them until the entire list is sorted.
+4. Repeat the process until no more swaps are needed.
 
-## GitHub Pages 
+### Example:
 
-### v0.x of Bulma Clean Theme
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
 
-If you are deploying to GitHub pages, then you can also install the [GitHub Pages gem](https://github.com/github/pages-gem) and use `remote_theme` instead of `theme` in your `_config.yml`. 
 
-Ensure you specify the version number at the end of the remote_theme, otherwise it will use the default version of the theme. 
-
-```yaml
-# _config.yml
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
-```
-
-### v1.x of Bulma Clean Theme
-
-{% include notification.html message="v1.x does not work with the GitHub pages default build process. " status="is-warning" %}
-
-When using v1.x of this theme, use GitHub actions to deploy your site to GitHub pages.
-
-Please read the [upgrade guide](/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
