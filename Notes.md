@@ -3,39 +3,20 @@ layout: page
 title: Learning Materials
 menubar: docs_menu
 show_sidebar: false
----
-
-# 📖 Data-Cloud Documentation
-
-Welcome to the **Data-Cloud** documentation! This guide will help you navigate and make the most of this learning platform for **Advanced Data Structures and Algorithms**.
 
 ---
 
-## 🚀 Getting Started
-Learn how to set up and explore Data-Cloud:
-- **[Introduction](/data-cloud/docs/introduction/)**
-- **[How to Navigate](/data-cloud/docs/navigation/)**
-- **[Using Study Materials](/data-cloud/docs/materials-guide/)**
+Access structured **week-wise** learning materials:
+
+- **[Week 1: Introduction to ADS](/docs/week-1/)** – Basics of Data Structures, Big-O Notation, Arrays & Linked Lists.
+- **[Week 2: Sorting & Searching](/docs/week-2/)** – Merge Sort, Quick Sort, Binary Search & Applications.
+- **[Week 3: Recursion & Backtracking](/docs/week-3/)** – Recursion Trees, Permutations, N-Queens Problem.
+
 
 ---
 
-## 📚 Learning Resources
-Find in-depth explanations, tutorials, and coding implementations:
-- **[Graph Algorithms](/data-cloud/docs/graph-algorithms/)**
-- **[Dynamic Programming](/data-cloud/docs/dynamic-programming/)**
-- **[String Algorithms](/data-cloud/docs/string-algorithms/)**
-- **[Advanced Trees](/data-cloud/docs/advanced-trees/)**
+### 💡 Need Help?
+Check out our **[FAQs](/docs/faqs/)** for common questions.  
+Have feedback? **[Open an issue on GitHub](https://github.com/Data-cloud02/data-cloud/issues)**.  
 
----
-
-## 🛠 Platform Features
-Maximize your learning experience with these features:
-- **[Interactive Code Editor](/data-cloud/docs/code-editor/)**
-- **[Quizzes & Challenges](/data-cloud/docs/quizzes/)**
-- **[Community Contributions](/data-cloud/docs/community/)**
-
----
-
-Need help? Check out the **[FAQs](/data-cloud/docs/faqs/)** or reach out via **[GitHub Issues](https://github.com/Data-cloud02/data-cloud/issues)**.
-
----
+🔗 **Want to contribute?** Fork our repo and submit pull requests to help improve **Data-Cloud**! 🚀
