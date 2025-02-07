@@ -1,6 +1,6 @@
 style: is-light
 items:
-  -  - title: "Introduction to Advanced Data Structures & Algorithms"
+  - title: "Introduction to Advanced Data Structures & Algorithms"
     subtitle: "Develop algorithmic thinking with structured learning. Master procedural and object-oriented design through interactive content."
     icon: fa-laptop-code
   - title: "Structured Learning Roadmap"
