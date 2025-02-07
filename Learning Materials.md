@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Learning Materials
 menubar: docs_menu
 show_sidebar: false
 ---
