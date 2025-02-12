@@ -5,6 +5,7 @@ title: Learning Materials
 menubar: docs_menu
 show_sidebar: false
 subtitle: Getting Started
+toc: true
 
 ---
 
