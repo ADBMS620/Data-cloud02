@@ -13,7 +13,7 @@ Access structured **week-wise** learning materials:
   
   - **[Bubble Sort](/docs/week-1/bubble-sort/)**
   - **[Insertion Sort](/docs/week-1/insertion-sort/)**
-- **[Week 2: Analysing Programs](/docs/week-2/)**
+- **[Week 2: Analysing Programs](/docs/getting-started/week-2/)**
 
   - **[Binary Heap](/docs/week-2/binary-heap/)**
   - **[Heapsort](docs/getting-started/week_2.md)**
