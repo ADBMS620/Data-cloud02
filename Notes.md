@@ -17,7 +17,7 @@ Access structured **week-wise** learning materials:
 
 - **[Week 2: Analysing Programs](/docs/getting-started/week_2.md)**
   - **[Binary Heap](/docs/week-2/binary-heap/)**
-  - **[Heapsort](docs/getting-started/week_2.md)**
+  - **[Heapsort](/docs/getting-started/week_2.md)**
   - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
     
 - **[Week 3: Divide and Conquer](/docs/week-3/)**
