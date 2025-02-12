@@ -13,16 +13,14 @@ Access structured **week-wise** learning materials:
   
   - **[Bubble Sort](/docs/week-1/bubble-sort/)**
   - **[Insertion Sort](/docs/week-1/insertion-sort/)**
-  - 
-- **[Week 2: Analysing Programs](/docs/getting-started/week-2/)**
 
+- **[Week 2: Analysing Programs](/docs/getting-started/week-2/)**
   - **[Binary Heap](/docs/week-2/binary-heap/)**
   - **[Heapsort](docs/getting-started/week_2.md)**
   - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
   - 
 - **[Week 3: Divide and Conquer](/docs/week-3/)**
-- 
-  - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
+   - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
   - **[Merge Sort](/docs/week-3/merge-sort/)**
 
  
