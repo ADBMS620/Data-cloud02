@@ -15,7 +15,7 @@ Access structured **week-wise** learning materials:
   - **[Bubble Sort](/docs/week-1/bubble-sort/)**
   - **[Insertion Sort](/docs/week-1/insertion-sort/)**
 
-- **[Week 2: Analysing Programs](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/getting-started/week_2.md)**
+- **[Week 2: Analysing Programs](/blob/master/docs/getting-started/week_2.md)**
   - **[Binary Heap](/docs/week-2/binary-heap/)**
   - **[Heapsort](docs/getting-started/week_2.md)**
   - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
