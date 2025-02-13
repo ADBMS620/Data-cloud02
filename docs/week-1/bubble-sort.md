@@ -1,39 +1,18 @@
 ---
 layout: page
 menubar: docs_menu
-title: Installation
-subtitle: Getting Started
+title: Learning Materials
 show_sidebar: false
 toc: true
 ---
-By the end of this lesson, you should be able to:
-- Implement:
-  - Bubble sort and
-  - Insertion sort algorithms to **sort** a sequence of number
-
-Important words:
-- sorting
-- bubble sort
-- insertion sort
 
 # Sorting Algorithm
 
 The best way to practice your programming skills is by writing actual code. One of the common computation is to sort some items in some way. For example, sorting a number from smallest to biggest or names from A to Z. In this notebook, we will describe some sorting algorithms which you can implement in Python. 
 
-**A Note about Show Pseudocode Button:**
 
-Throughout these notes, you will see a button that says **Show Pseudocode** as shown below. Go ahead and click it.
 
-<div cursor="pointer" class="collapsible">Show Pseudocode</div>
-<div class="content_answer">
-<p>
-The purpose of this button is to show you the pseudocode of the algorithm. But more importantly, the button is placed there so that you **don't immediately** see the pseudocode. The purpose is for you to **write down your own pseudocode** and compare your pseudocode with what is provided in these notes. 
-</p>
-</div>
-
-Another thing about pseudocode is that it is not a Python code. **Do not copy and paste the pseudocode** into any Python interpreter or Jupyter notebook cell and expect it to work. There is a good reason why it is called *pseudocode* and not *pythoncode*. See [definition of pseudo](https://www.google.com/search?client=opera&q=define%3A+pseudo&sourceid=opera&ie=UTF-8&oe=UTF-8).
-
-## Bubble Sort
+### Bubble Sort
 
 Bubble sort is one of the simplest sorting algorithms. We will be following the PCDIT framework (**P**roblem statement, Test **C**ases, **D**esign of Algorithm, **I**mplementation, and **T**esting) in describing the steps of these algorithms. 
 
