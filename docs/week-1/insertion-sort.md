@@ -5,17 +5,17 @@ title: Learning Materials
 show_sidebar: false
 toc: true
 ---
-## Insertion Sort
+# Insertion Sort
 
 Insertion sort is a comparison-based sorting algorithm that builds the final sorted array one element at a time by inserting each element into its correct position within the already sorted portion of the array.
 
-# Goals
+### Goals
 By the end of this lesson, you should be able to:
 
 * Describe insertion sort algorithm and ways to optimise it.
 * Implement insertion sort algorithm to sort a sequence of number.
   
-Keywords
+#### Keywords
  * sorting
  * insertion sort
 
