@@ -7,25 +7,28 @@ subtitle: Getting Started
 toc: true
 ---
 
+# Syllabus
 
+![Syllabus Image](path/to/your/syllabus-image.jpg)
 
-Access structured **week-wise** learning materials:
+Here’s the **week-wise** breakdown of the topics covered:
 
-- **[Week 1: Python Revision and Sorting Algorithm]**
+## Week-wise Learning Materials:
+
+### Week 1: Python Revision and Sorting Algorithm
   
   - **[Bubble Sort](docs/week-1/bubble-sort.md)**
-  - **[Insertion Sort](/docs/week-1/insertion-sort.md/)**
+  - **[Insertion Sort](docs/week-1/insertion-sort.md/)**
 
-- **[Week 2: Analysing Programs](/docs/getting-started/week_2.md)**
+### Week 2: Analysing Programs
   - **[Binary Heap](/docs/week-2/binary-heap/)**
   - **[Heapsort](/docs/getting-started/week_2.md)**
   - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
-    
-- **[Week 3: Divide and Conquer](/docs/week-3/)**
+
+ ### Week 3: Divide and Conquer
   - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
   - **[Merge Sort](/docs/week-3/merge-sort/)**
 
- 
 ---
 
 ### 💡 Need Help?
