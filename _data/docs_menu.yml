@@ -1,29 +1,49 @@
 - label: Learning Path
   items:
-    - name: Week 1 - Python & Sorting
-      link: /docs/week-1/
-      items:
-        - name: Bubble Sort
-          link: /docs/week-1/bubble-sort/
-        - name: Insertion Sort
-          link: /docs/week-1/insertion-sort/
 
-    - name: Week 2 - Analyzing Programs
-      link: /docs/week-2/
-      items:
-        - name: Binary Heap
-          link: /docs/week-2/binary-heap/
-        - name: Heapsort
-          link: /docs/week-2/heapsort/
-        - name: Computation Time Analysis
-          link: /docs/week-2/computation-time/
+  - name: Week 1 - Python & Sorting
+    items:
+      - name: Bubble Sort
+        link: /docs/week-1/bubble-sort/
+      - name: Insertion Sort
+        link: /docs/week-1/insertion-sort/
 
-    - name: Week 3 - Divide and Conquer
-      link: /docs/week-3/
-      items:
-        - name: Merge Sort
-          link: /docs/week-3/merge-sort/
-        - name: Quick Sort
-          link: /docs/week-3/quick-sort/
+  - name: Week 2 - Analyzing Programs
+    items:
+      - name: Binary Heap
+        link: /docs/week-2/binary-heap/
+      - name: Heapsort
+        link: /docs/week-2/heapsort/
+      - name: Computation Time Analysis
+        link: /docs/week-2/computation-time/
+
+  - name: Week 3 - Divide and Conquer
+    items:
+      - name: Merge Sort
+        link: /docs/week-3/merge-sort/
+      - name: Quick Sort
+        link: /docs/week-3/quick-sort/
+
+  - name: Week 4 - Greedy Algorithms
+    items:
+      - name: Activity Selection
+        link: /docs/week-4/activity-selection/
+      - name: Huffman Encoding
+        link: /docs/week-4/huffman-encoding/
+
+  - name: Week 5 - Dynamic Programming
+    items:
+      - name: Knapsack Problem
+        link: /docs/week-5/knapsack/
+      - name: Longest Common Subsequence
+        link: /docs/week-5/lcs/
+
+  - name: Week 6 - Graph Algorithms
+    items:
+      - name: Dijkstra’s Algorithm
+        link: /docs/week-6/dijkstra/
+      - name: Floyd-Warshall Algorithm
+        link: /docs/week-6/floyd-warshall/
+
 
    
