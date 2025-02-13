@@ -6,15 +6,23 @@ show_sidebar: false
 toc: true
 ---
 
-# Sorting Algorithm
-
-The best way to practice your programming skills is by writing actual code. One of the common computation is to sort some items in some way. For example, sorting a number from smallest to biggest or names from A to Z. In this notebook, we will describe some sorting algorithms which you can implement in Python. 
-
-
-
-### Bubble Sort
+## Bubble Sort
 
 Bubble sort is one of the simplest sorting algorithms. We will be following the PCDIT framework (**P**roblem statement, Test **C**ases, **D**esign of Algorithm, **I**mplementation, and **T**esting) in describing the steps of these algorithms. 
+
+### Goals
+
+By the end of this lesson, you should be able to:
+
+* Describe bubble sort algorithm and ways to optimise it.
+* Implement bubble sort algorithm to sort a sequence of number.
+  
+### Keywords
+
+* sorting
+* bubble sort
+
+The best way to practice your programming skills is by writing actual code. One of the common computation is to sort some items in some way. For example, sorting a number from smallest to biggest or names from A to Z. In this notebook, we will describe some sorting algorithms which you can implement in Python.
 
 
 ### Problem Statement
