@@ -3,15 +3,15 @@
     - name: week 1
       link: /docs/getting-started/week_1/
     - name: week 2
-      link: /docs/getting-started/upgrading-to-v1/
+      link: /docs/getting-started/week_2/
     - name: week 3
-      link: /docs/getting-started/configuration/
+      link: /docs/getting-started/week_3/
     - name: week 4
-      link: /docs/getting-started/theming/
+      link: /docs/getting-started/week_4/
     - name: week 5
-      link: /docs/getting-started/sidebar/
+      link: /docs/getting-started/week_6/
     - name: week 6
-      link: /docs/getting-started/scripts/
+      link: /docs/getting-started/week_7/
 
 
 
