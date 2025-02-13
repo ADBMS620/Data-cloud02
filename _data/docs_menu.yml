@@ -13,7 +13,7 @@
       - name: Binary Heap
         link: /docs/week-2/binary-heap/
       - name: Heapsort
-        link: /docs/week-2/heapsort/
+        link: /docs/week-2/Heapsort/
       - name: Computation Time Analysis
         link: /docs/week-2/computation-time/
 
