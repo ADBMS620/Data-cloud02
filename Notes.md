@@ -11,7 +11,7 @@ toc: true
 
 Access structured **week-wise** learning materials:
 
-- **[Week 1: Python Revision and Sorting Algorithm](/docs/week-1/)**
+- **[Week 1: Python Revision and Sorting Algorithm]**
   
   - **[Bubble Sort](/docs/week-1/bubble-sort/)**
   - **[Insertion Sort](/docs/week-1/insertion-sort/)**
