@@ -1,19 +1,19 @@
 ---
-
 layout: page
 title: Learning Materials
 menubar: docs_menu
 show_sidebar: false
 subtitle: Getting Started
 toc: true
-
 ---
+
+
 
 Access structured **week-wise** learning materials:
 
 - **[Week 1: Python Revision and Sorting Algorithm]**
   
-  - **[Bubble Sort](/docs/week-1/bubble-sort.md/)**
+  - **[Bubble Sort](docs/week-1/bubble-sort.md)**
   - **[Insertion Sort](/docs/week-1/insertion-sort.md/)**
 
 - **[Week 2: Analysing Programs](/docs/getting-started/week_2.md)**
