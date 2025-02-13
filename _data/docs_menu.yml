@@ -1,34 +1,29 @@
-  - label: Getting Started
+- label: Learning Path
   items:
     - name: Week 1 - Python & Sorting
-      link: /docs/getting-started/week_1/
-      dropdown:
+      link: /docs/week-1/
+      items:
         - name: Bubble Sort
-          link: /docs/getting-started/week_1/bubble-sort/
+          link: /docs/week-1/bubble-sort/
         - name: Insertion Sort
-          link: /docs/getting-started/week_1/insertion-sort/
+          link: /docs/week-1/insertion-sort/
 
     - name: Week 2 - Analyzing Programs
-      link: /docs/getting-started/week_2/
-      dropdown:
+      link: /docs/week-2/
+      items:
         - name: Binary Heap
-          link: /docs/getting-started/week_2/binary-heap/
+          link: /docs/week-2/binary-heap/
         - name: Heapsort
-          link: /docs/getting-started/week_2/heapsort/
+          link: /docs/week-2/heapsort/
+        - name: Computation Time Analysis
+          link: /docs/week-2/computation-time/
 
     - name: Week 3 - Divide and Conquer
-      link: /docs/getting-started/week_3/
-      dropdown:
+      link: /docs/week-3/
+      items:
         - name: Merge Sort
-          link: /docs/getting-started/week_3/merge-sort/
+          link: /docs/week-3/merge-sort/
         - name: Quick Sort
-          link: /docs/getting-started/week_3/quick-sort/
+          link: /docs/week-3/quick-sort/
 
-    - name: Week 4 - Greedy Algorithms
-      link: /docs/getting-started/week_4/
-
-    - name: Week 5 - Dynamic Programming
-      link: /docs/getting-started/week_5/
-
-    - name: Week 6 - Graph Algorithms
-      link: /docs/getting-started/week_6/
+   
