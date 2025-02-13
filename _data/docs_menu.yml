@@ -1,32 +1,5 @@
-  - label: Getting Started
+    - lable : Syllabus
+    - label: Week_1
   items:
-    - name: Week 1 - Python & Sorting
-      link: /docs/getting-started/week_1/
-      dropdown:
-        - name: Bubble Sort
-          link: /docs/getting-started/week_1/bubble-sort/
-        - name: Insertion Sort
-          link: /docs/getting-started/week_1/insertion-sort/
-    - name: Week 2 - Analyzing Programs
-      link: /docs/getting-started/week_2/
-      dropdown:
-        - name: Binary Heap
-          link: /docs/getting-started/week_2/binary-heap/
-        - name: Heapsort
-          link: /docs/getting-started/week_2/heapsort/
-    - name: Week 3 - Divide and Conquer
-      link: /docs/getting-started/week_3/
-      dropdown:
-        - name: Merge Sort
-          link: /docs/getting-started/week_3/merge-sort/
-        - name: Quick Sort
-          link: /docs/getting-started/week_3/quick-sort/
-    - name: Week 4 - Greedy Algorithms
-      link: /docs/getting-started/week_4/
-    - name: Week 5 - Dynamic Programming
-      link: /docs/getting-started/week_5/
-    - name: Week 6 - Graph Algorithms
-      link: /docs/getting-started/week_6/
-
- 
-
+    - name: Bubble-sort
+      link: /docs/getting-started/week_1/Bubble-sort
