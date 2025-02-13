@@ -7,7 +7,19 @@ toc: true
 ---
 ## Insertion Sort
 
-Insertion sort is another algorithm that solves the same problem. Let's start by looking at the same test case.
+Insertion sort is a comparison-based sorting algorithm that builds the final sorted array one element at a time by inserting each element into its correct position within the already sorted portion of the array.
+
+# Goals
+By the end of this lesson, you should be able to:
+
+* Describe insertion sort algorithm and ways to optimise it.
+* Implement insertion sort algorithm to sort a sequence of number.
+  
+Keywords
+ * sorting
+ * insertion sort
+
+Insertion sort is another algorithm that solves the same problem as bubble sort. Let's start by looking at the same test case.
 
 ### Test Case
 
