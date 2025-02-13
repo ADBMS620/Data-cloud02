@@ -3,17 +3,16 @@ layout: page
 title: Learning Materials
 menubar: docs_menu
 show_sidebar: false
-subtitle: Getting Started
-toc: true
+toc: false
 ---
 
 # Syllabus
 
-![Syllabus Image](path/to/your/syllabus-image.jpg)
+![Syllabus Image](docs/image/syllabus-image.jpg)
+--- 
 
 Here’s the **week-wise** breakdown of the topics covered:
 
-## Week-wise Learning Materials:
 
 ### Week 1: Python Revision and Sorting Algorithm
   
@@ -28,8 +27,8 @@ Here’s the **week-wise** breakdown of the topics covered:
  ### Week 3: Divide and Conquer
   - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
   - **[Merge Sort](/docs/week-3/merge-sort/)**
-
----
+  
+  ---
 
 ### 💡 Need Help?
 Check out our **[FAQs](/docs/faqs/)** for common questions.  
