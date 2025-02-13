@@ -8,7 +8,7 @@ toc: false
 
 # Syllabus
 
-![Syllabus Image](docs/image/syllabus-image.jpg)
+![Syllabus Image](Syllabus.png)
 --- 
 
 Here’s the **week-wise** breakdown of the topics covered:
