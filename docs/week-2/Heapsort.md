@@ -1,8 +1,7 @@
 ---
 layout: page
 menubar: docs_menu
-title: Week_2 lecture notes
-subtitle: Getting Started
+title: Learning materials
 show_sidebar: false
 toc: true
 ---
