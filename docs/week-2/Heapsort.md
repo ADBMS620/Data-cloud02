@@ -10,18 +10,17 @@ Heapsort is a comparison-based sorting algorithm that builds a binary heap data 
 ## Goals
 By the end of this lesson, you should be able to:
 
-        <li>Implement heapsort using iteration.</li>
+        Implement heapsort using iteration.
     
 ## Keywords
 <b>binary heap, heap property, heapify, heapsort.</b>
 ## Introduction
 Now, we can consider Heapsort algorithm. The idea of a heapsort is pretty simple. For any arbitrary array, we can sort the integers in the array by first building a max-heap. Once the max-heap is built, we know that the maximum is at the root node. With this, we can swap the root node with the last element and then exclude it from our heap. We then should restore the max-heap property after this swap because now the root node will be a small number. We can do this repetitively until there is no more element in the heap.
 ## Problem Statement
-Given an arbitrary array of integers, sort the element using heapsort algorithm.
-       
-        <li>Input: array of integers</li>
-        <li>Output: None</li>
-        <li>Process: Sort the elements of the array in place using heapsort.</li>
+<p>Given an arbitrary array of integers, sort the element using heapsort algorithm.</p>
+        <li>Input: array of integers </li>
+        <li>Output: None </li>
+        <li>Process: Sort the elements of the array in place using heapsort. </li>
     
 ## Test Cases
    <p>Let's use the same example as in the previous section...</p>
@@ -42,8 +41,14 @@ heap = [<b>1</b>, 14, 9, 10, 2, 8, 3, 7, 4 ,|| <b>16</b>]
 <li>Now, we will swap the largest element with the last element, and exclude it from the heap. We will put the excluded element in what we called as sorted of the list. This sorted section is separated by || in the list below.</li>
     <pre>
 heap = [<b>1</b>, <b>14</b>, 9, 10, 2, 8, 3, 7, 4 ,|| 16]
+    </pre>
+    <pre>
 heap = [<b>14</b>, <b>1</b>, 9, 10, 2, 8, 3, 7, 4 ,|| 16]
+    </pre>
+    <pre>
 heap = [14, <b>10</b>, 9, <b>1</b>, 2, 8, 3, 7, 4 ,|| 16]
+    </pre>
+    <pre>
 heap = [14, 10, 9, <b>7</b>, 2, 8, 3, <b>1</b>, 4 ,|| 16]
         </pre>
 <li>Once we have restored the max-heap property, we can take out the largest element from the first element and swap it with the last element in the heap.</li>    
