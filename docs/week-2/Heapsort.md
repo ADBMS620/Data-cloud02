@@ -9,6 +9,7 @@ toc: true
 Heapsort is a comparison-based sorting algorithm that builds a binary heap data structure and repeatedly extracts the maximum element to sort a given array.
 ## Goals
 By the end of this lesson, you should be able to:
+
         <li>Implement heapsort using iteration.</li>
     
 ## Keywords
@@ -17,16 +18,20 @@ By the end of this lesson, you should be able to:
 Now, we can consider Heapsort algorithm. The idea of a heapsort is pretty simple. For any arbitrary array, we can sort the integers in the array by first building a max-heap. Once the max-heap is built, we know that the maximum is at the root node. With this, we can swap the root node with the last element and then exclude it from our heap. We then should restore the max-heap property after this swap because now the root node will be a small number. We can do this repetitively until there is no more element in the heap.
 ## Problem Statement
 Given an arbitrary array of integers, sort the element using heapsort algorithm.
+       
         <li>Input: array of integers</li>
         <li>Output: None</li>
         <li>Process: Sort the elements of the array in place using heapsort.</li>
     
 ## Test Cases
    <p>Let's use the same example as in the previous section...</p>
+    
     <pre>
 [1, 2, 8, 7, 14, 9, 3, 10, 4, 16]
     </pre>
+    
     <p>We will sort the elements following these steps:</p>
+   
     <pre>
 heap = [<b>1</b>, 14, 9, 10, 2, 8, 3, 7, 4 ,|| <b>16</b>]
     </pre>
