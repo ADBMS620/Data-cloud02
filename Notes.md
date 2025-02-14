@@ -20,7 +20,7 @@ Here’s the **week-wise** breakdown of the topics covered:
   - **[Insertion Sort](docs/week-1/insertion-sort.md/)**
 
 ### Week 2: Analysing Programs
-  - **[Binary Heap](/docs/week-2/binary-heap/)**
+  - **[Binary Heap](docs/getting-started/week_2.md)**
   - **[Heapsort](/docs/getting-started/week_2.md)**
   - **[Analysing Computation Time](/docs/week-2/analysing-computation-time/)**
 
