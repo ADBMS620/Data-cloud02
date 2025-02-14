@@ -37,3 +37,26 @@ Previously, we discussed two sorting algorithms called Bubble Sort and Insertion
   </p>
 </div>
 
+## Binary Heap
+Before discussing the Heapsort algorithm, we have to introduce a new data structure called binary heap or simply called heap.
+<div style="border-left: 4px solid #0288d1; background-color: #e1f5fe; padding: 1em;">
+  <strong>❗ HEAP</strong>
+  <p>
+    The heap is an array of objects that we can view as a 
+    nearly perfect binary tree (or we can call it a 
+    <em>complete</em> binary tree).
+  </p>
+</div>
+
+> A perfect binary tree is a full binary tree in which **all** leaf nodes are at the same level.
+> Complete binary trees are nearly perfect **except** the last level, and all the leaves at the last level are packed towards the left.
+
+
+You are familiar with the concept of array. But what is a binary tree? The easiest way to explain it is using some examples.The image below shows you an array of integers.
+
+## Binary Tree
+We have indicated the indices of each element in the array, which starts from 0. We can visualize the elements in this array in a form of a tree as shown below.
+
+
+
+
