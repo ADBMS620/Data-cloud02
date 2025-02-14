@@ -78,8 +78,14 @@ Let's take a look at the example above and put in all the terms we have mentione
 ## Indices of Children and Parent in a Heap
 Let's start by considering how to calculate the index of the parent node. Let's take a look at the example tree we have considered.
 
->[!CAUTION]
->The parent of node index 1 is 0. Similarly, the parent of node index 2 is also 0. The parent of node index 3 and 4 is 1, while the parent of node index 5 and 6 is 2.
+> ⚠ **INDEX ≠ NODE CONTENT**
+>  The parent of node index 1 is 0. Similarly, the parent  of node index 2 is also 0. The parent of node index 3  and 4 is 1, while the parent of node index 5 and 6 is 2.
+
+How do we get index 0 from both indices 1 and 2? And how do we get index 1 from indices 3 and 4? 
+Or index 2 from indices 5 and 6?
+
+
+
 
 
 
