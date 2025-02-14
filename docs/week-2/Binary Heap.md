@@ -6,7 +6,7 @@ show_sidebar: false
 toc: true
 ---
 
-##Binary Heap
+## Binary Heap
 Binary heap is a complete binary tree-based data structure that satisfies the heap property,
 where the key of each parent node is either greater than or equal to (in a max heap) or less than or equal to (in a min heap)
 the keys of its child nodes.
