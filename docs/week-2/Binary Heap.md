@@ -22,3 +22,18 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 Previously, we discussed two sorting algorithms called Bubble Sort and Insertion Sort. In this section we will apply our programming skills to investigate another sorting algorithm called the Heapsort. We will then compare the performance of Heapsort with the previous sorting algorithms. We will discuss some notations on how to analyze these performance.
+
+<div style="border-left: 4px solid #4CAF50; background-color: #E8F5E9; padding: 1em;">
+  <h3>WHY SO MANY SORTING ALGORITHMS?</h3>
+  <p>
+    One reason why we introduce different sorting algorithms is to
+    show you that there are many ways to solve the same problems.
+    At the same time, these different ways may have different
+    performances.After we introduce binary heap and heapsort algorithm, we will
+    begin to teach you how to analyze these different algorithms in
+    terms of computation time. You will notice that the Heapsort
+    algorithm is a much better sorting algorithm compared to Bubble
+    sort and Insertion sort.
+  </p>
+</div>
+
