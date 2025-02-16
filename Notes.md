@@ -8,7 +8,7 @@ toc: false
 
 # Syllabus
 
-![Syllabus Image](/Data-cloud02/Syllabus.png)
+![Syllabus Image](/Data-cloud02/images/syllabus.png)
 
 ---
 
