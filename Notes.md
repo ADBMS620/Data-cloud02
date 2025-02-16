@@ -16,7 +16,7 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 ### Week 1: Python Revision and Sorting Algorithm
 
--  **[Bubble Sort](/data-cloud/docs/week-1/bubble-sort.md)**
+-  **[Bubble Sort](/Data-cloud02/docs/week-1/bubble-sort)**
 - **[Insertion Sort](/docs/week-1/insertion-sort.md)**
 
 ### Week 2: Analyzing Programs
