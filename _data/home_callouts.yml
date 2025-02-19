@@ -28,4 +28,4 @@ sections:
     button:
       text: "Get Started"
       link: "/get-started"
-    background_image: "images/cta-bg.jpg"
+    background_image: "https://www.shutterstock.com/image-illustration/wallpaper-binary-code-concept-pattern-big-1142996930"
