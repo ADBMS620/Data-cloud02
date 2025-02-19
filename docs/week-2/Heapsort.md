@@ -24,8 +24,9 @@ Now, we can consider Heapsort algorithm. The idea of a heapsort is pretty simple
     
 ## Test Cases
    Let's use the same example as in the previous section...
-    
+<pre>   
 [1, 2, 8, 7, 14, 9, 3, 10, 4, 16].
+</pre>
 We will sort the elements following these steps:
    
 <pre>    
