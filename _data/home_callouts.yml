@@ -14,3 +14,34 @@ items:
  
 
  
+style: is-light
+sections:
+  - type: hero
+    title: "Welcome to Advanced Data Structures & Algorithms"
+    subtitle: "Your ultimate destination for mastering algorithmic thinking and advanced concepts."
+    background_image: "https://www.shutterstock.com/image-illustration/wallpaper-binary-code-concept-pattern-big-1142996930"
+
+  - type: features
+    items:
+      - title: "Introduction to Advanced Data Structures & Algorithms"
+        subtitle: "Develop algorithmic thinking with structured learning. Master procedural and object-oriented design through interactive content."
+        icon: fa-laptop-code
+        image: "images/intro.jpg"
+
+      - title: "Structured Learning Roadmap"
+        subtitle: "Follow a guided curriculum to systematically understand ADSA concepts, from fundamentals to advanced techniques."
+        icon: fa-route
+        image: "images/roadmap.jpg"
+
+      - title: "Learning Materials"
+        subtitle: "Access well-organized study materials, curated notes, and additional learning resources."
+        icon: fa-book
+        image: "images/materials.jpg"
+
+  - type: call-to-action
+    title: "Ready to Start Learning?"
+    subtitle: "Join our community and explore the world of Advanced Data Structures & Algorithms."
+    button:
+      text: "Get Started"
+      link: "/get-started"
+    background_image: "images/cta-bg.jpg"
