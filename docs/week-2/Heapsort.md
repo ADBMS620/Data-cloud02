@@ -32,22 +32,22 @@ We will sort the elements following these steps:
 heap = [<b>1</b>, 14, 9, 10, 2, 8, 3, 7, 4 ,|| <b>16</b>]
   
 <li>Build a max-heap from this array. The previous section has shown that the final output of building a max-heap will be:</li>
-    <pre>
+<pre>
 [16, 14, 9, 10, 2, 8, 3, 7, 4, 1]
-    </pre>
+</pre>
 <li>Now, we will swap the largest element with the last element, and exclude it from the heap. We will put the excluded element in what we called as sorted of the list. This sorted section is separated by || in the list below.</li>
-    <pre>
+<pre>
 heap = [<b>1</b>, <b>14</b>, 9, 10, 2, 8, 3, 7, 4 ,|| 16]
-    </pre>
-    <pre>
+</pre>
+<pre>
 heap = [<b>14</b>, <b>1</b>, 9, 10, 2, 8, 3, 7, 4 ,|| 16]
-    </pre>
-    <pre>
+</pre>
+<pre>
 heap = [14, <b>10</b>, 9, <b>1</b>, 2, 8, 3, 7, 4 ,|| 16]
-    </pre>
-    <pre>
+</pre>
+<pre>
 heap = [14, 10, 9, <b>7</b>, 2, 8, 3, <b>1</b>, 4 ,|| 16]
-        </pre>
+</pre>
 <li>Once we have restored the max-heap property, we can take out the largest element from the first element and swap it with the last element in the heap.</li>    
 <pre>
     heap = [<b>4</b>, 10, 9, 7, 2, 8, 3, 1,|| <b>14</b> , 16]
