@@ -6,7 +6,7 @@ show_sidebar: false
 toc: true
 ---
 
-## Binary Heap
+# Binary Heap
 Binary heap is a complete binary tree-based data structure that satisfies the heap property,where the key of each parent node is either greater than or equal to (in a max heap) or less than or equal to (in a min heap)the keys of its child nodes.
 ## Goals
 By the end of this lesson, you should be able to:
@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to:
 ## Keywords 
 <b> tree, binary tree, root, binary heap, heap property, heapify, node, leaf, parent node, child node<b>
 
-## Introduction
+# Introduction
 Previously, we discussed two sorting algorithms called Bubble Sort and Insertion Sort. In this section we will apply our programming skills to investigate another sorting algorithm called the Heapsort. We will then compare the performance of Heapsort with the previous sorting algorithms. We will discuss some notations on how to analyze these performance.
 
 <div style="border-left: 4px solid #4CAF50; background-color: #E8F5E9; padding: 1em;">
@@ -37,7 +37,7 @@ Previously, we discussed two sorting algorithms called Bubble Sort and Insertion
   </p>
 </div>
 
-## Binary Heap
+# Binary Heap
 Before discussing the Heapsort algorithm, we have to introduce a new data structure called binary heap or simply called heap.
 <div style="border-left: 4px solid #0288d1; background-color: #e1f5fe; padding: 1em;">
   <strong>❗ HEAP</strong>
@@ -85,8 +85,94 @@ Let's start by considering how to calculate the index of the parent node. Let's 
 How do we get index 0 from both indices 1 and 2? And how do we get index 1 from indices 3 and 4? 
 Or index 2 from indices 5 and 6?
 
+We can test the above pseudocode. **(1−1)/2=0** and **(2−1)/2=0** for the second level nodes. Similarly, **(3−1)/2=1 and (4−1)/2=1** for the third-level nodes with the parent index **1**. And **(5−1)/2=2** together with **(6−1)/2=2** for the third level nodes with the parent index 2. Note that we use integer division to get the correct parent node.
+
+## Left Child Index
+n order to get the index of the left child, let's observe the following:
+* The left child of node 0 is index 1.
+* The left child of node 1 is index 3.
+* The left child of node 2 is index 5.
+* and so on.
+
+We can get the left child index using the following:
 
 
+
+## Right Child Index
+Similarly, we can observe the following for the indices of the right child nodes:
+
+* The right child of node 0 is index 2.
+* The right child of node 1 is index 4.
+* The right child of node 2 is index 6.
+* and so on.
+
+
+# Heap Property
+There are two kinds of heap: max-heaps and min-heaps. In this case we will discuss only max-heaps. Both heaps must satisfy **heap property**, which specifies the kind of heap we are dealing with. The **max-heap property** is specified as follows:
+
+> ### MAX HEAP PROPERTY
+> For all nodes except the root:
+>
+> ```text
+> A[parent(i)] >= A[i]
+> ```
+
+This means that in a max-heap, the parent nodes are always greater that their children. This also implies that the largest node is at the root. The figure below is an example of a max-heap because it satisfies the condition above.
+
+# Maintaining The Heap Property with `Heapify`
+
+We will now describe an algorithm on how to maintain the *heap property*, 
+and in this example it is the **max-heap property**. We call the procedure 
+to maintain the max-heap property **max-heapify**. The idea is that for a 
+given node, we will “push down” this node in such a way that the 
+max-heap property is satisfied. This assumes the *left child* of the given 
+node already forms a tree that satisfies the max-heap property. Similarly, 
+the *right child* of the given node also forms a tree that satisfies the 
+max-heap property. The only part that does not satisfy the max-heap 
+property is the current node and its two children.
+
+## (P)roblem Statement
+
+Given an index of a node in a binary tree, where the left and the right children 
+of that node satisfy the *max-heap property*, restore the *max-heap property* 
+of the tree starting from the current node.
+
+```text
+Input: index of the current node in a heap
+Output: None
+Process: re-order the elements in the heap
+         in such a way that the max-heap property is satisfied
+         from the current index node.
+
+assumption:
+ - left child forms a tree that satisfies max-heap property
+ - right child forms a tree that satisfies max-heap property
+ - current node with its children may not satisfy max-heap property
+```
+## Test (C)ase
+
+Let's take a look at the tree below.
+
+Note the following:
+
+- The current node is **index 1**, which has the element of 4.
+- The current node with its children does not satisfy the *max-heap property* 
+  because `4 < 14` and `4 < 7`.
+- The left child, i.e. the tree starting from index 3 (element 14, with children 
+  of 2 and 8), forms a tree that satisfies the *max-heap property*.
+- The right child, i.e. the tree starting from index 4 (element 7, with 
+  one child of 1), forms a tree that satisfies the *max-heap property*.
+
+The procedure of *max-heapify* will push the current node by swapping with the 
+largest node along the way to satisfy the *max-heap property*. To do that, in 
+the process of pushing the nodes, we will swap that node with the **largest child**. 
+In this way, we satisfy the *max-heap property*.
+
+Let's look at the particular example above. Given the tree above, we do the following:
+
+- We first find the largest child of the current node. The current node is element 4 
+  (index 1). The largest child is element 14 (index 3), which is the left child of 
+  the current node.
 
 
 
