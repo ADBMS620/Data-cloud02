@@ -28,9 +28,9 @@ Now, we can consider Heapsort algorithm. The idea of a heapsort is pretty simple
 [1, 2, 8, 7, 14, 9, 3, 10, 4, 16].
 We will sort the elements following these steps:
    
-    
+<pre>    
 heap = [<b>1</b>, 14, 9, 10, 2, 8, 3, 7, 4 ,|| <b>16</b>]
-  
+</pre> 
 <li>Build a max-heap from this array. The previous section has shown that the final output of building a max-heap will be:</li>
 <pre>
 [16, 14, 9, 10, 2, 8, 3, 7, 4, 1]
