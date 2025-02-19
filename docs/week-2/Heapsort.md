@@ -27,6 +27,7 @@ Now, we can consider Heapsort algorithm. The idea of a heapsort is pretty simple
 <pre>   
 [1, 2, 8, 7, 14, 9, 3, 10, 4, 16].
 </pre>
+
 We will sort the elements following these steps:
    
 <pre>    
