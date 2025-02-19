@@ -18,20 +18,19 @@ By the end of this lesson, you should be able to:
 Now, we can consider Heapsort algorithm. The idea of a heapsort is pretty simple. For any arbitrary array, we can sort the integers in the array by first building a max-heap. Once the max-heap is built, we know that the maximum is at the root node. With this, we can swap the root node with the last element and then exclude it from our heap. We then should restore the max-heap property after this swap because now the root node will be a small number. We can do this repetitively until there is no more element in the heap.
 ## Problem Statement
 <p>Given an arbitrary array of integers, sort the element using heapsort algorithm.</p>
-        <li>Input: array of integers </li>
-        <li>Output: None </li>
-        <li>Process: Sort the elements of the array in place using heapsort. </li>
+        Input: array of integers
+        Output: None 
+        Process: Sort the elements of the array in place using heapsort.
     
 ## Test Cases
    Let's use the same example as in the previous section...
     
- [1, 2, 8, 7, 14, 9, 3, 10, 4, 16]
-    
-    We will sort the elements following these steps:
+[1, 2, 8, 7, 14, 9, 3, 10, 4, 16].
+We will sort the elements following these steps:
    
     
 heap = [<b>1</b>, 14, 9, 10, 2, 8, 3, 7, 4 ,|| <b>16</b>]
-    </pre>
+  
 <li>Build a max-heap from this array. The previous section has shown that the final output of building a max-heap will be:</li>
     <pre>
 [16, 14, 9, 10, 2, 8, 3, 7, 4, 1]
