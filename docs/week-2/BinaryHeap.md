@@ -32,9 +32,6 @@ Previously, we discussed two sorting algorithms called Bubble Sort and Insertion
 > After we introduce binary heap and heapsort algorithm, we will begin to introduce how to analyze these different algorithms in terms of computation time.  
 > You will notice that Heapsort algorithm is a much better sorting algorithm as compared to Bubble sort and Insertion sort algorithms.
 
-
-
-
 # Binary Heap
 Before discussing the Heapsort algorithm, we have to introduce a new data structure called binary heap or simply called heap.
 
@@ -44,6 +41,7 @@ Before discussing the Heapsort algorithm, we have to introduce a new data struct
  The heap is an array of objects that we can view as a nearly perfect binary tree  
  (or we can call it a *complete* binary tree).
 ```
+
 
 > A perfect binary tree is a full binary tree in which **all** leaf nodes are at the same level.
 > Complete binary trees are nearly perfect **except** the last level, and all the leaves at the last level are packed towards the left.
@@ -280,17 +278,17 @@ We call *max-heapify* on **14**, and the result is a swap between **14** and **1
 
 In the figure below, we indicate the next element to consider with a *dotted* circle.
 
-[1, 2, 8, 7,****14****, 9, 3, 10, 4, 16]
+[1, 2, 8, 7,**14**, 9, 3, 10, 4, 16]
 
 ![Binary Heap10](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-10.png?raw=true)
 
 
 
-[1, 2, 8, 7, ****16****, 9, 3, 10, 4, ****14****]
+[1, 2, 8, 7, **16**, 9, 3, 10, 4, **14**]
 
 Now we move to the element on the left of 16, which is 7. The result of max-heapify will swap 7 with 10.
 
-[1, 2, 8, ****7****, 16, 9, 3, 10, 4, 14]
+[1, 2, 8, **7**, 16, 9, 3, 10, 4, 14]
 
 ![Binary Heap 11](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-11.png?raw=true)
 
