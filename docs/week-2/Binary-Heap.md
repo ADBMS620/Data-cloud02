@@ -4,6 +4,7 @@ menubar: docs_menu
 title: Learning Materials
 show_sidebar: false
 toc: true
+
 ---
 
 # Binary Heap
