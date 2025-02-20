@@ -121,6 +121,10 @@ There are two kinds of heap: max-heaps and min-heaps. In this case we will discu
 
 This means that in a max-heap, the parent nodes are always greater that their children. This also implies that the largest node is at the root. The figure below is an example of a max-heap because it satisfies the condition above.
 
+![Binary Heap](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-4.png?raw=true)
+
+ 
+
 # Maintaining The Heap Property with `Heapify`
 
 We will now describe an algorithm on how to maintain the *heap property*, 
@@ -155,6 +159,9 @@ assumption:
 
 Let's take a look at the tree below.
 
+![Binary Heap 5](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-5.png?raw=true)
+
+
 Note the following:
 
 - The current node is **index 1**, which has the element of 4.
@@ -175,9 +182,18 @@ Let's look at the particular example above. Given the tree above, we do the foll
 - We first find the largest child of the current node. The current node is element 4 
   (index 1). The largest child is element 14 (index 3), which is the left child of 
   the current node.
+  ![Binary Heap 6](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-6.png?raw=true)
+
 - We then swap the current node with the largest child, i.e. element 4 (index 1) with element 14 (index 3).
+
+  ![Binary Heap 7](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-7.png?raw=true)
+
+
 - We, then, move our current index to the place where we swap, i.e. old index of element 14. So we are now at index 3.
 - We do the same thing by looking if any of the children is larger than the current node. Since 8>4, we swap 4 (index 3) with 8 (index 8).
+
+  ![Binary Heap 8](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-8.png?raw=true)
+
 - We, then, move our current index to the place where we swap, i.e. old index of element 8. So we are now at index 8.
 - Since this node has no more children, we stop. We can check whether the node has more children by calculating the index of the left child and see if it is still within the length of the array minus one, i.e. _**left(i)<n**_ if the node has at least one child, where i is the current node index and n is the number of element in the array.
 
@@ -253,6 +269,9 @@ Let's consider an array as shown below.
 ```
 We first visualize this array as a binary tree as shown below. Note that this tree does not satisfy max-heap property.
 
+![Binary Heap 9](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-9.png?raw=true)
+
+
 We will start from the middle index, i.e. \( n/2 - 1 = 10/2 - 1 = 4 \), which is the fifth element, i.e. **14**. Notice that all the elements after **14** are all *leaves*. 
 
 We call *max-heapify* on **14**, and the result is a swap between **14** and **16**. We only have one iteration because now **14** has reached the end of the array and cannot be compared with any other nodes. 
@@ -262,6 +281,8 @@ In the figure below, we indicate the next element to consider with a *dotted* ci
 
 [1, 2, 8, 7,****14****, 9, 3, 10, 4, 16]
 
+![Binary Heap10](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-10.png?raw=true)
+
 
 
 [1, 2, 8, 7, ****16****, 9, 3, 10, 4, ****14****]
@@ -269,6 +290,9 @@ In the figure below, we indicate the next element to consider with a *dotted* ci
 Now we move to the element on the left of 16, which is 7. The result of max-heapify will swap 7 with 10.
 
 [1, 2, 8, ****7****, 16, 9, 3, 10, 4, 14]
+
+![Binary Heap 11](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-11.png?raw=true)
+
 
 
 
@@ -278,6 +302,8 @@ Now, we move to the next element, which is 8. The result of max-heapify will swa
 
 [1, 2, **8**, 10, 16, 9, 3, 7, 4, 14]
 
+![Binary Heap 12](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-12.png?raw=true)
+
 
 [1, 2, **9**, 10, 16, **8**, 3, 7, 4, 14]
 
@@ -285,12 +311,16 @@ We move on to the next element, which is 2. The result of max-heapify will swap 
 
 [1, **2**, 9, 10, **16**, 8, 3, 7, 4, 14]
 
+![Binary Heap 12](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-13.png?raw=true)
+
 
 [1, **16**, 9, 10, **2**, 8, 3, 7, 4, 14]
 
 and then,
 
 [1, 16, 9, 10, **2**, 8, 3, 7, 4, **14**]
+
+![Binary Heap 13](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-14.png?raw=true)
 
 
 
@@ -300,12 +330,16 @@ And now we move to the last element, which is 1. The result of max-heapify will 
 
 [**1**, **16**, 9, 10, 14, 8, 3, 7, 4, 2]
 
+![Binary Heap 14](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-15.png?raw=true)
+
 
 [**16**,**1**, 9, 10, 14, 8, 3, 7, 4, 2]
 
 next,
 
-[16,**1**, 9, 10, **14**, 8, 3, 7, 4, 2]    
+[16,**1**, 9, 10, **14**, 8, 3, 7, 4, 2]  
+
+![Binary Heap 15](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-16.png?raw=true)
 
 
 [16, **14**, 9, 10, **1**, 8, 3, 7, 4, 2]
@@ -313,6 +347,8 @@ next,
 Finally,
 
 [16, 14, 9, 10, **1**, 8, 3, 7, 4, **2**]
+
+![Binary Heap 16](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-17.png?raw=true)
 
 
 [16, 14, 9, 10, 2, 8, 3, 7, 4, **1**]
