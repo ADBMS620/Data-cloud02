@@ -38,7 +38,7 @@ Previously, we discussed two sorting algorithms called Bubble Sort and Insertion
 Before discussing the Heapsort algorithm, we have to introduce a new data structure called binary heap or simply called heap.
 
 ``` text bf
- ℹ️ **HEAP**  
+ ℹ️ HEAP  
  The heap is an array of objects that we can view as a nearly perfect binary tree  
  (or we can call it a *complete* binary tree).
 ```
@@ -48,7 +48,8 @@ Before discussing the Heapsort algorithm, we have to introduce a new data struct
 
 
 You are familiar with the concept of array. But what is a binary tree? The easiest way to explain it is using some examples.The image below shows you an array of integers.
-![](docs/week-2/Binary_Heap1.png)
+
+![BinearyHeap](https://github.com/ADBMS620/Data-cloud02/blob/master/Binary_Heap1.png?raw=true)
 
 ## Binary Tree
 We have indicated the indices of each element in the array, which starts from 0. We can visualize the elements in this array in a form of a tree as shown below.
