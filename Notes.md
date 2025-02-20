@@ -20,7 +20,7 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 ### Week 2: Analyzing Programs
 
-- **[Binary Heap](/docs/week-2/BinaryHeap.md)**
+- **[Binary Heap](/Data-cloud02/docs/week-2/BinaryHeap)**
 - **[Heapsort](/docs/getting-started/week_2.md)**
 - **[Analyzing Computation Time](/docs/week-2/analysing-computation-time/)**
 
