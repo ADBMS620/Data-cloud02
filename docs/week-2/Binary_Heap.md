@@ -26,7 +26,7 @@ By the end of this lesson, you should be able to:
 Previously, we discussed two sorting algorithms called Bubble Sort and Insertion Sort. In this section we will apply our programming skills to investigate another sorting algorithm called the Heapsort. We will then compare the performance of Heapsort with the previous sorting algorithms. We will discuss some notations on how to analyze these performance.
 
 > 💡 **WHY SO MANY SORTING ALGORITHMS?**  
-> One reason why we introduce different sorting algorithms is to show you that there are many ways to solve the same problems.  
+> One reason why we introduce different sorting algorithms is to show you that there are many ways to solve the same problems.
 > At the same time, these different ways may have different performances.  
 > After we introduce binary heap and heapsort algorithm, we will begin to introduce how to analyze these different algorithms in terms of computation time.  
 > You will notice that Heapsort algorithm is a much better sorting algorithm as compared to Bubble sort and Insertion sort algorithms.
@@ -36,10 +36,12 @@ Previously, we discussed two sorting algorithms called Bubble Sort and Insertion
 
 # Binary Heap
 Before discussing the Heapsort algorithm, we have to introduce a new data structure called binary heap or simply called heap.
-> ℹ️ **HEAP**  
-> The heap is an array of objects that we can view as a nearly perfect binary tree  
-> (or we can call it a *complete* binary tree).
 
+``` text bf
+ ℹ️ **HEAP**  
+ The heap is an array of objects that we can view as a nearly perfect binary tree  
+ (or we can call it a *complete* binary tree).
+```
 
 > A perfect binary tree is a full binary tree in which **all** leaf nodes are at the same level.
 > Complete binary trees are nearly perfect **except** the last level, and all the leaves at the last level are packed towards the left.
