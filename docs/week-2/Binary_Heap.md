@@ -79,6 +79,8 @@ Let's take a look at the example above and put in all the terms we have mentione
 ## Indices of Children and Parent in a Heap
 Let's start by considering how to calculate the index of the parent node. Let's take a look at the example tree we have considered.
 
+![Binary Heap2](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-3.png?raw=true)
+
 > ⚠ **INDEX ≠ NODE CONTENT**
 >  The parent of node index 1 is 0. Similarly, the parent  of node index 2 is also 0. The parent of node index 3  and 4 is 1, while the parent of node index 5 and 6 is 2.
 
