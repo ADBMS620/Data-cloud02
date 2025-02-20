@@ -8,7 +8,7 @@ toc: false
 
 # Syllabus
 
-![Syllabus Image](/Data-cloud02/image/Syllabus)
+![Syllabus Image](https://github.com/ADBMS620/Data-cloud02/blob/master/image/Syllabus.gif?raw=true)
 ---
 
 Here’s the **week-wise** breakdown of the topics covered:
