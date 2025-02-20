@@ -17,8 +17,10 @@ By the end of this lesson, you should be able to:
 <li>Implement algorithm to restore heap property<l/i>
 <li>Write functions to do binary heap data structure operation<l/i>
 
-## Keywords 
-<b> tree, binary tree, root, binary heap, heap property, heapify, node, leaf, parent node, child node <b>
+## 🔑 Keywords
+
+`tree` `binary tree` `root` `binary heap` `heap property` `heapify` `node` `leaf` `parent node` `child node`
+
 
 # Introduction
 Previously, we discussed two sorting algorithms called Bubble Sort and Insertion Sort. In this section we will apply our programming skills to investigate another sorting algorithm called the Heapsort. We will then compare the performance of Heapsort with the previous sorting algorithms. We will discuss some notations on how to analyze these performance.
