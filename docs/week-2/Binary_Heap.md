@@ -51,7 +51,7 @@ Before discussing the Heapsort algorithm, we have to introduce a new data struct
 
 You are familiar with the concept of array. But what is a binary tree? The easiest way to explain it is using some examples.The image below shows you an array of integers.
 
-![BinearyHeap](https://github.com/ADBMS620/Data-cloud02/blob/master/Binary_Heap1.png?raw=true)
+![BinearyHeap1](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-2/Bineary%20Heap/Binary_Heap-1.png?raw=true)
 
 ## Binary Tree
 We have indicated the indices of each element in the array, which starts from 0. We can visualize the elements in this array in a form of a tree as shown below.
