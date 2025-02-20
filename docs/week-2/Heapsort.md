@@ -121,7 +121,7 @@ Swapping and taking out the largest element:
 ## Design of Algorithm
 Let's write down the steps in the previous section in a pseudocode.
 <li><b>Pseudocode</b></li>
-    <pre>
+<pre>
 def heapsort(array):
     # Input: any arbitrary array
     # Output: None
@@ -132,7 +132,7 @@ def heapsort(array):
         3.1 swap( array[0], array[heap_end_pos])
         3.2 heap_end_pos = heap_end_pos -1 # reduce heap size
         3.3 call max-heapify(array[from index 0 to heap_end_pos inclusive], 0)
-    </pre>
+ </pre>
 
 We first call the procedure in the previous section called <b>build-max-heap</b> to create the max-heap data structure. We then start from the last element in the heap and swap it with the largest element (always at index 0).
 
