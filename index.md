@@ -26,9 +26,6 @@ Explore a curated collection of in-depth explanations, notes, and practical impl
 
 Check out hands-on coding tutorials and problem-solving guides to enhance your skills. All tutorials include step-by-step explanations and code snippets in **Python, C++, and Java**.
 
-## 📖 Documentation
-
-For more details on how to navigate and use this website, visit the [Documentation](/data-cloud/docs/).
 
 ## 📌 Features of Data-Cloud
 
@@ -39,12 +36,8 @@ This platform provides:
 - 🛠 Tools & Visualizations
 - 📢 Community Discussions
 
-## ⭐ Get Involved
 
-We encourage collaboration! If you have valuable resources to contribute or want to help improve the site, check out our **GitHub Repository** and make a pull request.
-
-[![GitHub](https://img.shields.io/github/stars/Data-cloud02/data-cloud?style=social)](https://github.com/Data-cloud02/data-cloud)
 
 ---
 
-🔗 **Start Exploring Now!** 🚀
+
