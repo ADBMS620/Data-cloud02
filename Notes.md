@@ -35,4 +35,3 @@ Here’s the **week-wise** breakdown of the topics covered:
 Check out our **[FAQs](/docs/faqs/)** for common questions.  
 Have feedback? **[Open an issue on GitHub](https://github.com/Data-cloud02/data-cloud/issues)**.  
 
-🔗 **Want to contribute?** Fork our repo and submit pull requests to help improve **Data-Cloud**! 🚀
