@@ -1,7 +1,7 @@
 ---
 layout: page
 menubar: docs_menu
-title: Learning materials
+title: Learning Materials
 show_sidebar: false
 toc: true
 ---
