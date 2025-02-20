@@ -173,6 +173,175 @@ Let's look at the particular example above. Given the tree above, we do the foll
 - We first find the largest child of the current node. The current node is element 4 
   (index 1). The largest child is element 14 (index 3), which is the left child of 
   the current node.
+- We then swap the current node with the largest child, i.e. element 4 (index 1) with element 14 (index 3).
+- We, then, move our current index to the place where we swap, i.e. old index of element 14. So we are now at index 3.
+- We do the same thing by looking if any of the children is larger than the current node. Since 8>4, we swap 4 (index 3) with 8 (index 8).
+- We, then, move our current index to the place where we swap, i.e. old index of element 8. So we are now at index 8.
+- Since this node has no more children, we stop. We can check whether the node has more children by calculating the index of the left child and see if it is still within the length of the array minus one, i.e. _**left(i)<n**_ if the node has at least one child, where i is the current node index and n is the number of element in the array.
+
+# Design of Algorithm
+
+## Max-Heapify v1
+
+We can write down the steps we did in the previous section as follows.
+
+  ```text
+  def max-heapify(A, i):
+  version: 1
+  Input:
+    - A = array storing the heap
+    - i = index of the current node to restore max-heap property
+  Output: None, restore the element in place
+  Steps:
+    1. current_i = i # current index starting from input i
+    2. As long as ( left(current_i) < length of array), do:
+      2.1 max_child_i = get the index of largest child of the node current_i
+      2.2 if array[max_child_i] > array[current_i], do:
+        2.2.1 swap( array[max_child_i], array[current_i])
+        2.3 current_i = max_child_i # move to the index of the largest child
+```
+
+Note that the above steps will continue iterating down even if the current node already satisfies *max-heap* property. This means that we can stop iterating if the largest child is already less than the current node. We can do this by checking if any swap is happening. If no swap is needed then we are done. This is because we assume that the left child and the right child already satisfy *max-heap property*.
+
+
+
+## Max-Heapify v2
+
+
+ 
+
+  ```text
+  def max-heapify(A, i):
+  version: 2
+  Input:
+    - A = array storing the heap
+    - i = index of the current node to restore max-heap property
+  Output: None, restore the element in place
+  Steps:
+    1. current_i = i  # current index starting from input i
+    2. swapped = True
+    3. As long as ( left(current_i) < length of array) AND swapped, do:
+      3.1 swapped = False
+      3.2 max_child_i = get the index of largest child of the node current_i
+      3.3 if array[max_child_i] > array[current_i], do:
+        3.3.1 swap( array[max_child_i], array[current_i])
+        3.3.2 swapped = True
+      3.3.3 current_i = max_child_i  # move to the index of the largest child
+   ```
+
+  We introduced a boolean variable called swapped. At every iteration, we set *swapped* to *False*. If there is a swap, we set this boolean variable to *True* and continue to the next iteration. If there is no swap, the boolean variable is still *False* and so it will stop the iteration.
+
+  # Building A Heap
+
+We can then use the previous procedure *max-heapify* to build a **binary heap** data structure from any arbitrary array. The idea is to go through every node in the tree and *heapify* them. However, we need not do this for all the nodes, but rather only **half** of those nodes. The reason is that we do not need to heapify the **leaves**.
+
+We can show that the elements in the array from index \( n/2 \) to \( n - 1 \) are all leaves. We do not need to push down these nodes as they do not have any children. So we can start from the element at position \( n/2 - 1 \) and move up to the element at position **0**.
+
+## **(P)roblem Statement**
+
+Given an arbitrary array, re-order the elements in such a way that it satisfies *max-heap property*.
+
+
+## **Test (C)ases**
+
+Let's consider an array as shown below.
+
+```text
+[1, 2, 8, 7, 14, 9, 3, 10, 4, 16]
+```
+We first visualize this array as a binary tree as shown below. Note that this tree does not satisfy max-heap property.
+
+We will start from the middle index, i.e. \( n/2 - 1 = 10/2 - 1 = 4 \), which is the fifth element, i.e. **14**. Notice that all the elements after **14** are all *leaves*. 
+
+We call *max-heapify* on **14**, and the result is a swap between **14** and **16**. We only have one iteration because now **14** has reached the end of the array and cannot be compared with any other nodes. 
+
+
+In the figure below, we indicate the next element to consider with a *dotted* circle.
+
+[1, 2, 8, 7,****14****, 9, 3, 10, 4, 16]
+
+
+
+[1, 2, 8, 7, ****16****, 9, 3, 10, 4, ****14****]
+
+Now we move to the element on the left of 16, which is 7. The result of max-heapify will swap 7 with 10.
+
+[1, 2, 8, ****7****, 16, 9, 3, 10, 4, 14]
+
+
+
+[1, 2, 8,**10**, 16, 9, 3, 7, 4, 14]
+
+Now, we move to the next element, which is 8. The result of max-heapify will swap 8 with 9.
+
+[1, 2, **8**, 10, 16, 9, 3, 7, 4, 14]
+
+
+[1, 2, **9**, 10, 16, **8**, 3, 7, 4, 14]
+
+We move on to the next element, which is 2. The result of max-heapify will swap 2 with 16, and then 2 with 14.
+
+[1, **2**, 9, 10, **16**, 8, 3, 7, 4, 14]
+
+
+[1, **16**, 9, 10, **2**, 8, 3, 7, 4, 14]
+
+and then,
+
+[1, 16, 9, 10, **2**, 8, 3, 7, 4, **14**]
+
+
+
+[1, 16, 9, 10, **14**, 8, 3, 7, 4, **2**]
+
+And now we move to the last element, which is 1. The result of max-heapify will swap 1 with 16, and then 1 with 14, and finally 1 with 2.
+
+[**1**, **16**, 9, 10, 14, 8, 3, 7, 4, 2]
+
+
+[**16**,**1**, 9, 10, 14, 8, 3, 7, 4, 2]
+
+next,
+
+[16,**1**, 9, 10, **14**, 8, 3, 7, 4, 2]    
+
+
+[16, **14**, 9, 10, **1**, 8, 3, 7, 4, 2]
+
+Finally,
+
+[16, 14, 9, 10, **1**, 8, 3, 7, 4, **2**]
+
+
+[16, 14, 9, 10, 2, 8, 3, 7, 4, **1**]
+
+
+> **NOTE**  
+> Once we reach the last element, the whole array now satisfies the *max-heap property*.
+
+# (D)esign of Algorithm
+
+We can then write down the steps above as a pseudocode as follows:
+
+
+  ```text
+  def build-max-heap(array):
+Input:
+  - array: arbitrary array of integers
+Output: None, sort the element in place
+Steps:
+1. n = length of array
+2. starting_index = integer(n / 2) - 1 # start from the middle or non-leaf node
+3. For current_index in Range(from starting_index down to 0), do:
+    3.1 call max-heapify(array, current_index)
+```
+
+> ⚠️ **CAUTION**  
+> The pseudo simply says, we start from the middle node as our `starting_index`, and call the function max-heapify on that node.  
+> We then move to the left and continue calling max-heapify until we reach the first element at index 0.
+
+
+
 
 
 
