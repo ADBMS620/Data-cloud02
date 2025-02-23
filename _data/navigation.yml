@@ -1,14 +1,9 @@
 - name: About
   link: /about/
   
-- name: Roadmap
-  link: /roadmap/
-
 - name: Notes
   link: /Notes/
- 
-- name: Resources
-  link: /#
+
   dropdown:
     - name: Practice Problems
       link: /practice-problems/
