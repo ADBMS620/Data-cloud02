@@ -15,8 +15,8 @@
       link: /books/
 
 -name: Resources
-link: /Resources/
+ link: /Resources/
 
-dropdown:
+ dropdown:
      -name: To be announced
-     link: /To be announced/
+      link: /To be announced/
