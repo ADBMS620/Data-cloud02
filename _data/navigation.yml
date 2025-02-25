@@ -4,7 +4,7 @@
   link: /notes/
 - name: Resources
   link: /resources/
- dropdown:
+  dropdown:
     - name: Practice Problems
       link: /practice-problems/
     - name: Code Examples
@@ -13,5 +13,3 @@
       link: /interview-prep/
     - name: Books & References
       link: /books/
-
-   
