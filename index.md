@@ -43,8 +43,6 @@ A Data Structure is a way of organizing and storing data so that it can be acces
 📝 Practice coding challenges – Solve problems on platforms like LeetCode, Codeforces, and HackerRank.
 📖 Understand real-world applications – Study how DSA is used in databases, OS, AI, and blockchain.
 👨‍💻 Follow structured courses – Read tutorials, watch videos, and implement algorithms in different languages.
-
-
 ---
 
 
