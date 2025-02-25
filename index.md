@@ -4,7 +4,6 @@ subtitle: Learn, Code, and Conquer
 layout: page
 callouts: home_callouts
 show_sidebar: false
-hero_image: /Data-cloud02/images.jpg 
 ---
 
 # Welcome to Your DSA Journey!
@@ -23,8 +22,7 @@ Explore a curated collection of in-depth explanations, notes, and practical impl
 - String Algorithms (KMP, Rabin-Karp)
 - Computational Geometry
 
-
-  
+ 
  ## What are Data Structures?
  
 A Data Structure is a way of organizing and storing data so that it can be accessed and modified efficiently. The right choice of data structure can significantly improve the performance, scalability, and efficiency of an application.
