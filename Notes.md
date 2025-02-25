@@ -21,7 +21,7 @@ Here’s the **week-wise** breakdown of the topics covered:
 ### Week 2: Analyzing Programs
 
 - **[Binary Heap](/Data-cloud02/docs/week-2/BinaryHeap)**
-- **[Heapsort](/docs/getting-started/week_2.md)**
+- **[Heapsort](/Data-cloud02/docs/week-2/Heapsort)**
 - **[Analyzing Computation Time](/docs/week-2/analysing-computation-time/)**
 
 ### Week 3: Divide and Conquer
