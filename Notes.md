@@ -31,8 +31,8 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 ### Week 4: Graph Algorithms
 
-- **[Breadth-First Search (BFS)](/docs/getting-started/week-4.md)**
-- **[Depth-First Search (DFS)]
+- **[Breadth-First Search (BFS)](/docs/getting-started/week-4_BFS.md)**
+- **[Depth-First Search (DFS)](/docs/getting-started/week-4_DFS.md)**
 
 ---
 
