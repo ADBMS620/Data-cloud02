@@ -3,7 +3,10 @@
   
 - name: Notes
   link: /Notes/
-
+  
+-name: Resources
+ link: /Resources/
+ 
   dropdown:
     - name: Practice Problems
       link: /practice-problems/
@@ -14,9 +17,5 @@
     - name: Books & References
       link: /books/
 
--name: Resources
- link: /Resources/
- 
- dropdown:
-    - name: To be announced
-      link: To be announced/
+
+   
