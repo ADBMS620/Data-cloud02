@@ -2,7 +2,7 @@
   link: /about/
 - name: Notes
   link: /Notes/
--name: Resources
+- name: Resources
  link: /Resources/
  dropdown:
     - name: Practice Problems
