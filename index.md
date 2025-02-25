@@ -23,7 +23,7 @@ Explore a curated collection of in-depth explanations, notes, and practical impl
 - String Algorithms (KMP, Rabin-Karp)
 - Computational Geometry
 
-   ---
+
   
  ## What are Data Structures?
  
