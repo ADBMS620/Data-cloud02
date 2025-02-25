@@ -29,6 +29,11 @@ Here’s the **week-wise** breakdown of the topics covered:
 - **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
 - **[Merge Sort](/docs/week-3/merge-sort/)**
 
+### Week 4: Graph Algorithms
+
+- **[Breadth-First Search (BFS)]
+- **[Depth-First Search (DFS)]
+
 ---
 
 ### 💡 Need Help?
