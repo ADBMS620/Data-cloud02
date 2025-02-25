@@ -29,7 +29,7 @@
       - name: Breadth First Search(BFS)
         link: /docs/getting-started/week-4.md/
       - name: Depth First Search(DFS)
-        link: /docs/getting-started/week-4_DFS/
+        link: /docs/getting-started/week-4_DFS.md/
 
   - name: Week 5 - Dynamic Programming
     items:
