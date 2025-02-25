@@ -27,7 +27,7 @@
   - name: Week 4 - Graph Algorithms
     items:
       - name: Breadth First Search(BFS)
-        link: /docs/getting-started/week-4.md
+        link: /docs/getting-started/week-4.md/
       - name: Depth First Search(DFS)
         link: /docs/week-4/Depth First Search(DFS)
 
