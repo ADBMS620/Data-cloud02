@@ -1,9 +1,9 @@
 - name: About
   link: /about/
 - name: Notes
-  link: /Notes/
+  link: /notes/
 - name: Resources
-  link: /Resources/
+  link: /resources/
  dropdown:
     - name: Practice Problems
       link: /practice-problems/
