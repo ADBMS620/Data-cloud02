@@ -4,7 +4,7 @@ subtitle: Learn, Code, and Conquer
 layout: page
 callouts: home_callouts
 show_sidebar: false
-hero_image: /Data-cloud02/img/heroimage.jpg 
+hero_image: /Data-cloud02/images.jpg 
 ---
 
 # Welcome to Your DSA Journey!
