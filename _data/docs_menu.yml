@@ -27,9 +27,9 @@
   - name: Week 4 - Graph Traversal
     items:
       - name: Breadth First Search(BFS)
-        link: /docs/getting-started/week-4_BFS.md/
+        link: /docs/week-4/BFS/
       - name: Depth First Search(DFS)
-        link: /docs/getting-started/week-4_DFS.md/
+        link: /docs/week-4/DFS/
 
   - name: Week 5 - Dynamic Programming
     items:
