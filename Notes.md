@@ -31,8 +31,8 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 ### Week 4: Graph Traversal
 
-- **[Breadth-First Search (BFS)](/docs/getting-started/week-4_BFS.md)**
-- **[Depth-First Search (DFS)](/docs/getting-started/week-4_DFS.md)**
+- **[Breadth-First Search (BFS)](/Data-cloud02/docs/week-4/BFS/)**
+- **[Depth-First Search (DFS)](/Data-cloud02/docs/week-4/DFS/)**
 
 ---
 
