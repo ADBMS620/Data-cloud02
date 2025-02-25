@@ -24,12 +24,12 @@
       - name: Quick Sort
         link: /docs/week-3/quick-sort/
 
-  - name: Week 4 - Greedy Algorithms
+  - name: Week 4 - Graph Algorithms
     items:
-      - name: Activity Selection
-        link: /docs/week-4/activity-selection/
-      - name: Huffman Encoding
-        link: /docs/week-4/huffman-encoding/
+      - name: Breadth First Search(BFS)
+        link: /docs/getting-started/week-4.md
+      - name: Depth First Search(DFS)
+        link: /docs/week-4/Depth First Search(DFS)
 
   - name: Week 5 - Dynamic Programming
     items:
