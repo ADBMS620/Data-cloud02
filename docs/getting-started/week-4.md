@@ -9,7 +9,7 @@ toc: true
 Breadth-first search is a graph traversal algorithm that explores all the vertices of a graph at the same level before moving to the next level, ensuring the shortest path to each vertex is discovered first.
 ## Goals
 By the end of this lesson, you should be able to:
-     explain and implement <b>breadth</b> first search.
+        explain and implement <b>breadth</b> first search.
 ## Keywords
 <b>graph traversal, breadth first search, distance, colour, parent vertex, inheritance, child class, parent class, super</b>
 ## Introduction
