@@ -4,10 +4,6 @@ items:
     subtitle: "Develop algorithmic thinking with structured learning. Master procedural and object-oriented design through interactive content."
     icon: fa-laptop-code
     background-images: "istockphoto-1226866597-1024x1024.jpg"
-  - title: "Structured Learning Roadmap"
-    subtitle: "Follow a guided curriculum to systematically understand ADSA concepts, from fundamentals to advanced techniques."
-    icon: fa-route
-    image:  # Added colon to correct the syntax
   - title: "Learning materials"
     subtitle: "Access well-organized study materials, curated notes, and additional learning resources."
     icon: fa-book
