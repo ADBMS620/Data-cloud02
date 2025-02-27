@@ -1,18 +1,10 @@
 ---
-title: Linear Data Structures
-permalink: /notes/linear_data_structure
-key: notes-linear-data-structure
-layout: article
-nav_key: Notes
-sidebar:
-  nav: Notes
-license: false
-aside:
-  toc: true
-show_edit_on_github: false
-show_date: false
+layout: page
+menubar: docs_menu
+title: Learning Materials
+show_sidebar: false
+toc: true
 ---
-
 By the end of this lesson, you should be able to:
 
 - Implement abstract data type for **Stack**, **Queue** using Object Oriented paradigm
