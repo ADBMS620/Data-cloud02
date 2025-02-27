@@ -54,7 +54,7 @@ The merge steps have three arrows as shown in the figure below, the _red_, _purp
 
 We then move the arrow from which we move the number. In the example above 1 is smaller than 7, therefore, we put 1 into the position pointed by the red arrow and move the blue arrow to the next number.
 
-![](/2022/assets/images/week3/merge_steps02.png)
+![](/Data-cloud02/docs/week-3/merge_steps02.png)
 
 These steps continue as follows.
 
