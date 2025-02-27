@@ -2,7 +2,7 @@
 layout: page
 title: Advanced Data Structures and Algorithms
 subtitle: Learn, Code, and Conquer
-hero_image: /path/to/image.jpg
+hero_image: /path/image.jpg
 callouts: home_callouts
 show_sidebar: false
 ---
