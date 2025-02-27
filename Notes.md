@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learning Materials
-hero_image: \Data-cloud02\path\The-Role-Visuals-Play-In-Your-Online-Learning-Material.jpg
+hero_image: /Data-cloud02/path/The-Role-Visuals-Play-In-Your-Online-Learning-Material.jpg
 menubar: docs_menu
 show_sidebar: false
 toc: false
