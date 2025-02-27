@@ -1,7 +1,8 @@
 ---
+layout: page
 title: Advanced Data Structures and Algorithms
 subtitle: Learn, Code, and Conquer
-layout: page
+hero_image: /path/to/image.jpg
 callouts: home_callouts
 show_sidebar: false
 ---
