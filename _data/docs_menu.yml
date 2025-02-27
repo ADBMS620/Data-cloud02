@@ -7,6 +7,8 @@
         link: /docs/week-1/bubble-sort/
       - name: Insertion Sort
         link: /docs/week-1/insertion-sort/
+      - name: Linear Data Structure
+        link: /docs/week-1/Linear-Data-Structure/
 
   - name: Week 2 - Analyzing Programs
     items:
