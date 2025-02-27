@@ -1,7 +1,7 @@
 - name: About
   link: /about/
 - name: Notes
-  link: /Data-cloud02/docs_menu/
+  link: /Notes/
 - name: Resources
   link: /resources/
   dropdown:
