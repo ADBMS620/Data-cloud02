@@ -2,7 +2,7 @@
 layout: page
 title: Advanced Data Structures and Algorithms
 subtitle: Learn, Code, and Conquer
-hero_image: /Data-cloud02/path/premium_photo-1661963435646-73b565fb724c.avif
+hero_image: /Data-cloud02/path/dm_20231212-data-structure-1024x658.webp
 callouts: home_callouts
 show_sidebar: false
 ---
