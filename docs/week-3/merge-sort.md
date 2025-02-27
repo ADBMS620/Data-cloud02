@@ -50,7 +50,7 @@ How do we merge the two arrays? We will give this example in the merge of the la
 
 The merge steps have three arrows as shown in the figure below, the _red_, _purple_, and _blue_. The red arrow points to the position of where to store the number in the sorted array. The purple arrow points to the number in the left array while the blue arrow points to the number in the right array. The merge step begins by comparing the number pointed by the purple arrow with the number pointed by the blue arrow. We then put the smaller number into the sorted array.
 
-![](/2022/assets/images/week3/merge_steps01.png)
+![](/Data-cloud02/docs/week-3/merge_steps01.png)
 
 We then move the arrow from which we move the number. In the example above 1 is smaller than 7, therefore, we put 1 into the position pointed by the red arrow and move the blue arrow to the next number.
 
