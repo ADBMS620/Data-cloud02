@@ -40,11 +40,11 @@ Let's give an example for a particular input sequence and see how merge sort sol
 
 We split the array into two parts recursively until each array is left only with one element.
 
-![](/2022/assets/images/week3/mergesort_split.png)
+![](/Data-cloud02/docs/week-3/mergesort_split.png)
 
 When we have the array with only one element, the array is trivially sorted. So now what we can do is to go up and merge the two array. This is shown in the figure below.
 
-![](/2022/assets/images/week3/mergesort_merge.png)
+![](/Data-cloud02/docs/week-3/mergesort_merge.png)
 
 How do we merge the two arrays? We will give this example in the merge of the last step to get the final sorted array.
 
