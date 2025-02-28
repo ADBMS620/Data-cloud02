@@ -62,35 +62,35 @@ These steps continue as follows.
 
 ---
 
-![](/Data-cloud02/docs/week3/merge_steps04.png)
+![](/Data-cloud02/docs/week-3/merge_steps04.png)
 
 ---
 
-![](/Data-cloud02/docs/week3/merge_steps05.png)
+![](/Data-cloud02/docs/week-3/merge_steps05.png)
 
 ---
 
 At this point, both left and right array have the same value, i.e. 8. We can choose arbitrarily that when the value is the same, we will take the value from the left array.
 
-![](/Data-cloud02/docs/week3/merge_steps06.png)
+![](/Data-cloud02/docs/week-3/merge_steps06.png)
 
 ---
 
-![](/Data-cloud02/docs/week3/merge_steps07.png)
+![](/Data-cloud02/docs/week-3/merge_steps07.png)
 
 ---
 
 At this point, we have finished putting the right array. So the subsequent steps simply filling up the sorted array from the left array.
 
-![](/Data-cloud02/docs/week3/merge_steps08.png)
+![](/Data-cloud02/docs/week-3/merge_steps08.png)
 
 ---
 
-![](/Data-cloud02/docs/week3/merge_steps09.png)
+![](/Data-cloud02/docs/week-3/merge_steps09.png)
 
 ---
 
-![](/Data-cloud02/docs/week3/merge_steps10.png)
+![](/Data-cloud02/docs/week-3/merge_steps10.png)
 
 ### (D)esign of Algorithm
 
