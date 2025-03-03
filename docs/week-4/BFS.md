@@ -115,13 +115,4 @@ Now it's time to implement the algorithm. But before we can implement the algori
 <p>(iii)parent.</p>
 As mentioned in the Introduction, we will do this using the concept of <b>Inheritance</b>.
 
-## Inheritance
-Inheritance is an important concept in object oriented programming that allows us to re-use existing code or classes we have written. In our example here, we already have a class <b>Vertex</b> and <b>Graph</b>. However, the class Vertex only contains <b>id</b> and <b>neighbours</b>.
 
-
-As shown in the previous section, our Vertex object has additional attributes such as colour, distance, and parent. We can actually create a new class containing all these new properties as well as the commonly found properties of a vertex (id and neighbours). However, we will duplicate our codes and rewriting the methods that is the same for all Vertex objects such as adding a <b>neighbour</b>. Inheritance allows us to create a new class without duplicating all the other parts that is the same. By using inheritance, we create a new class by deriving it from an existing base class.
-In this example, we can create a new class called <b>SearchVertex</b> that is derived from a base class Vertex. When a class inherits another class, the new class possess all the attributes and methods of its parent class. This means that <b>SearchVertex</b> class contains both <b>id</b> and <b>neighbours</b> as well as all the methods that Vertex class has. What we need to do is simply to specify what is different with SearchVertex that Vertex class does not have. We can represent this relationship using a UML diagram as shown below.
-
-In the UML diagram, the relationship is represented as an arrow with a white triangle pointing from the <b>child class</b> to the <b>parent class</b>. This relationship is also called is-a relationship which simply means that <b>SearchVertex</b> is-a <b>Vertex</b>, it has all the attributes and methods of a <b>Vertex</b> object.
-
-In Python, we can specify if a class derives from another class using the following syntax:
