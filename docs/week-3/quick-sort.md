@@ -11,4 +11,5 @@ QuickSort is a sorting algorithm based on the Divide and Conquer that picks an e
 The primary goal of the quicksort algorithm is to efficiently sort an array or list of elements by using a divide-and-conquer approach, partitioning the array around a <b>pivot</b> element and recursively sorting the resulting sub-arrays.
 ## Keywords
 <b>Pivot,Divide and Conquer, Partition the Array, Recurssion.</b>
-
+## Introduction
+Quicksort is a <b>divide-and-conquer</b> algorithm. It works by selecting a <b>pivot</b> element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. For this reason, it is sometimes called partition-exchange sort. The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting.
