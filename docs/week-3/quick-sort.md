@@ -47,35 +47,35 @@ The key process in quickSort is a partition. There are three common algorithms t
 Let's consider an example of a short array and try to understand the algorithm:
 
 <b>Step 1:</b> We start with an unsorted array.
-
+<pre>
 [ 11, 9, 12, 7, 3]
-
+</pre>
 <b>Step 2:</b> We choose the last value 3 as the pivot element.
-
-[ 11, 9, 12, 7, 3]
-
+<pre>
+[ 11, 9, 12, 7, <b>3</b>]
+</pre>
 <b>Step 3:</b> The rest of the values in the array are all greater than 3, and must be on the right side of 3. Swap 3 with 11.
-
-[ 3, 9, 12, 7, 11]
-
+<pre>
+[<b>3</b>, 9, 12, 7, <b>11</b>]
+</pre>
 <b>Step 4:</b> Value 3 is now in the correct position. We need to sort the values to the right of 3. We choose the last value 11 as the new pivot element.
-
-[ 3, 9, 12, 7, 11]
-
+<pre>
+[ 3, 9, 12, 7, <b>11</b>]
+</pre>
 <b>Step 5:</b> The value 7 must be to the left of pivot value 11, and 12 must be to the right of it. Move 7 and 12.
-
-[ 3, 9, 7, 12, 11]
-
+<pre>
+[ 3, 9, <b>7</b>, <b>12</b>, 11]
+</pre>
 <b>Step 6:</b> Swap 11 with 12 so that lower values 9 and 7 are on the left side of 11, and 12 is on the right side.
-
-[ 3, 9, 7, 11, 12]
-
+<pre>
+[ 3, 9, 7, <b>11</b>, <b>12</b>]
+</pre>
 <b>Step 7:</b> 11 and 12 are in the correct positions. We choose 7 as the pivot element in sub-array [ 9, 7], to the left of 11.
-
-[ 3, 9, 7, 11, 12]
-
+<pre>
+[ 3, 9, <b>7</b>, 11, 12]
+</pre>
 <b>Step 8:</b> We must swap 9 with 7.
-
-[ 3, 7, 9, 11, 12].
-
+<pre>
+[ 3, <b>7</b>, <b>9</b>, 11, 12].
+</pre>
 And now, the array is sorted.
