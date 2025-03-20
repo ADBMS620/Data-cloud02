@@ -79,3 +79,34 @@ Let's consider an example of a short array and try to understand the algorithm:
 [ 3, <b>7</b>, <b>9</b>, 11, 12].
 </pre>
 And now, the array is sorted.
+
+## Advantages of Quick Sort
+1.It is a divide-and-conquer algorithm that makes it easier to solve problems.
+
+2.It is efficient on large data sets.
+
+3.It has a low overhead, as it only requires a small amount of memory to function.
+
+4.It is Cache Friendly as we work on the same array to sort and do not copy data to any auxiliary array.
+
+5.Fastest general purpose algorithm for large data when stability is not required.
+
+6.It is tail recursive and hence all the tail call optimization can be done.
+## Disadvantages of Quick Sort
+1.It has a worst-case time complexity of O(n2), which occurs when the pivot is chosen poorly.
+
+2.It is not a good choice for small data sets.
+
+3.It is not a stable sort, meaning that if two elements have the same key, their relative order will not be preserved in the sorted output in case of quick sort, because here we are swapping elements according to the pivot’s position (without considering their original positions).
+## Applications of Quick Sort
+1.Efficient for sorting large datasets with O(n log n) average-case time complexity.
+
+2.Used in partitioning problems like finding the kth smallest element or dividing arrays by pivot.
+
+3.Integral to randomized algorithms, offering better performance than deterministic approaches.
+
+4.Applied in cryptography for generating random permutations and unpredictable encryption keys.
+
+5.Partitioning step can be parallelized for improved performance in multi-core or distributed systems.
+
+6.Important in theoretical computer science for analyzing average-case complexity and developing new techniques.
