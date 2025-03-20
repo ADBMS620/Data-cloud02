@@ -26,9 +26,8 @@ Here’s the **week-wise** breakdown of the topics covered:
 - **[Analyzing Computation Time](/docs/week-2/analysing-computation-time/)**
 
 ### Week 3: Divide and Conquer
-
-- **[Divide and Conquer](/docs/week-3/divide-and-conquer/)**
 - **[Merge Sort](/Data-cloud02/docs/week-3/merge-sort/)**
+- **[Quick Sort](/docs/week-3/quick-sort/)**
 
 ### Week 4: Graph Traversal
 
