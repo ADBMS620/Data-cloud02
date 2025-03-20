@@ -41,4 +41,41 @@ The key process in quickSort is a partition. There are three common algorithms t
 
 <p><b>Naive Partition:</b> Here we create copy of the array. First put all smaller elements and then all greater. Finally we copy the temporary array back to original array. This requires O(n) extra space.</p>
 <p><b>Lomuto Partition:</b> We have used this partition in this article. This is a simple algorithm, we keep track of index of smaller elements and keep swapping. We have used it here in this article because of its simplicity.</p>
-<p><b>Hoare’s Partition:</b> This is the fastest of all. Here we traverse array from both sides and keep swapping greater element on left with smaller on right while the array is not partitioned. Please refer Hoare’s vs Lomuto for details.</p>
+<p><b>Hoare’s Partition:</b> This is the fastest of all. Here we traverse array from both sides and keep swapping greater element on left with smaller on right while the array is not partitioned.</p>
+
+## Example
+Let's consider an example of a short array and try to understand the algorithm:
+
+<b>Step 1:</b> We start with an unsorted array.
+
+[ 11, 9, 12, 7, 3]
+
+<b>Step 2:</b> We choose the last value 3 as the pivot element.
+
+[ 11, 9, 12, 7, 3]
+
+<b>Step 3:</b> The rest of the values in the array are all greater than 3, and must be on the right side of 3. Swap 3 with 11.
+
+[ 3, 9, 12, 7, 11]
+
+<b>Step 4:</b> Value 3 is now in the correct position. We need to sort the values to the right of 3. We choose the last value 11 as the new pivot element.
+
+[ 3, 9, 12, 7, 11]
+
+<b>Step 5:</b> The value 7 must be to the left of pivot value 11, and 12 must be to the right of it. Move 7 and 12.
+
+[ 3, 9, 7, 12, 11]
+
+<b>Step 6:</b> Swap 11 with 12 so that lower values 9 and 7 are on the left side of 11, and 12 is on the right side.
+
+[ 3, 9, 7, 11, 12]
+
+<b>Step 7:</b> 11 and 12 are in the correct positions. We choose 7 as the pivot element in sub-array [ 9, 7], to the left of 11.
+
+[ 3, 9, 7, 11, 12]
+
+<b>Step 8:</b> We must swap 9 with 7.
+
+[ 3, 7, 9, 11, 12].
+
+And now, the array is sorted.
