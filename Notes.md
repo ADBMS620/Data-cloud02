@@ -27,7 +27,7 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 ### Week 3: Divide and Conquer
 - **[Merge Sort](/Data-cloud02/docs/week-3/merge-sort/)**
-- **[Quick Sort](/Data-cloud02/docs/week-3/quick-sort/)**
+- **[Quick Sort](/Data-cloud02/docs/week-3/quick-sort)**
 
 ### Week 4: Graph Traversal
 
