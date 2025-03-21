@@ -45,6 +45,8 @@ The maximum value obtained from ‘n’ items is the max of the following two va
 * Case 2 (don’t pick the $n^{th}$ item): Maximum value obtained by (n-1) items and W weight.
 * If the weight of the ' $n^{th}$ ' item is greater than ‘W’, then the $n^{th}$ item cannot be included and **Case 2** is the only possibility.
 
+  
+
 
 
 
