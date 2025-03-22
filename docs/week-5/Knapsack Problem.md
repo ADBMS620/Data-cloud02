@@ -51,7 +51,7 @@ The maximum value obtained from ‘n’ items is the max of the following two va
 
 **Example**
 
-![ Knapsack Problem 1]()
+![ Knapsack Problem 1](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/Knapsack%20Problem/Knapsack%20Problem%201.jpg?raw=true)
 
 ## [Better Approach 1] Using Top-Down DP (Memoization)- O(n x W) Time and Space
 
@@ -63,7 +63,20 @@ As there are repetitions of the same subproblem again and again we can implement
 
 > If we get a subproblem the first time, we can solve this problem by creating a 2-D array that can store a particular state (n, w). Now if we come across the same state $(n, w)$ again instead of calculating it i again we can directly return its result stored in the table in constant time.
 
+## [Better Approach 2] Using Bottom-Up DP (Tabulation) – O(n x W) Time and Space
 
+There are two parameters that change in the recursive solution and these parameters go from 0 to n and 0 to W. So we create a 2D dp[][] array of size (n+1) x (W+1), such that **dp[i][j]** stores the maximum value we can get using **i** items such that the knapsack capacity is **j**.
+
+* We first fill the known entries when m is 0 or n is 0.
+* Then we fill the remaining entries using the recursive formula.
+
+For each item i and knapsack capacity j, we decide whether to pick the item or not.
+
+* **If we don’t pick the item:** dp[i][j] remains same as the previous item, that is dp[i – 1][j].
+* **If we pick the item:** dp[i][j] is updated to val[i] + dp[i – 1][j – wt[i]].
+
+## [Expected Approach] Using Bottom-Up DP (Space-Optimized) – O(n x W) Time and O(W) Space
+> For calculating the current row of the dp[] array we require only previous row, but if we start traversing the rows from right to left then it can be done with a single row only
 
 
 
