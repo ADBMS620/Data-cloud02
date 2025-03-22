@@ -34,6 +34,10 @@ Here’s the **week-wise** breakdown of the topics covered:
 - **[Breadth-First Search (BFS)](/Data-cloud02/docs/week-4/BFS)**
 - **[Depth-First Search (DFS)](/Data-cloud02/docs/week-4/DFS)**
 
+### Week 5: Dynamic Programming
+
+- **[Knapsack Problem](/Data-cloud02/docs/week-5/Knapsack Problem)**
+
 ---
 
 ### 💡 Need Help?
