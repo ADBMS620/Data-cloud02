@@ -38,8 +38,6 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 - **[Knapsack Problem](/Data-cloud02/docs/week-5/knapsack-problem)**
 
----
-
 ### 💡 Need Help?
 Check out our **[FAQs](/docs/faqs/)** for common questions.  
 Have feedback? **[Open an issue on GitHub](https://github.com/Data-cloud02/data-cloud/issues)**.  
