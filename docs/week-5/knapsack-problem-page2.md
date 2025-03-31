@@ -31,4 +31,17 @@ Let val[] = {1, 4, 5, 7}, wt[] = {1, 3, 4, 5}
 W = 7. 
 
 The 2d knapsack table will look like : 
- 
+
+![ Knapsack Problem 3](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/Knapsack%20Problem/knapsack-problem%203.png?raw=true)
+
+Start backtracking from K[n][W].Here K[n][W] is 9.
+
+Since this value comes from the top (shown by grey arrow), the item in this row is not included. Go vertically upward in the table without including this in the knapsack. Now, this value K[n-1][W] which is 9 doesn’t come from the top which means the item in this row is included and go vertically up and then left by the weight of the included item ( shown by black arrow). Continuing this process include weights 3 and 4 with a total value 9 in the knapsack. 
+
+
+**Time complexity:** O(n*W)
+
+**Space complexity:** O(n*W)
+
+[⬅️ Back](knapsack-problem.md)
+
