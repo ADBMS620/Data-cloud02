@@ -43,5 +43,5 @@ Since this value comes from the top (shown by grey arrow), the item in this row 
 
 **Space complexity:** O(n*W)
 
-[⬅️ Back](knapsack-problem.md)       [Next ➡️](knapsack-problem-page3.md)
+[⬅️ Back](/Data-cloud02/docs/week-5/knapsack-problem)       [Next ➡️](/Data-cloud02/docs/week-5/knapsack-problem-page3)
 
