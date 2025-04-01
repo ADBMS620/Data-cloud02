@@ -37,6 +37,7 @@ Here’s the **week-wise** breakdown of the topics covered:
 ### Week 5: Dynamic Programming
 
 - **[Knapsack Problem](/Data-cloud02/docs/week-5/knapsack-problem)**
+- **[Longest Common Subsequence (LCS)](/Data-cloud02/docs/week-5/longest-common-subsequence)**
 
 ### 💡 Need Help?
 Check out our **[FAQs](/docs/faqs/)** for common questions.  
