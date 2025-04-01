@@ -110,6 +110,6 @@ Branch and bound is very useful technique for searching a solution but in worst 
 to fully calculate the entire tree. At best, we only need to fully calculate one path through 
 the tree and prune the rest of it. 
 
-[⬅️ Back](knapsack-problem-page4.md)         [Next ➡️](knapsack-problem-page6.md)
+[⬅️ Back](/Data-cloud02/docs/week-5/knapsack-problem-page4)         [Next ➡️](/Data-cloud02/docs/week-5/knapsack-problem-page6)
      
  
