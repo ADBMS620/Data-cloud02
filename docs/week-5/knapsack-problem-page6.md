@@ -61,5 +61,21 @@ Follow the steps below to solve the problem:
    - If the current node can be inserted into the knapsack, calculate the lower and upper bounds of the left child of the current node.
    - Update the `minLB` and insert the children if their upper bound is less than `minLB`.
 
+   
+   Illustration: 
+ N = 4, C = 15, V[]= {10 10 12 18}, W[]= {2 4 6 9} 
+ 
+
+
+   ![knapsack problem 7](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/Knapsack%20Problem/Knapsack-problem%207.jpeg?raw=true)
+
+
+   Left branch and right branch at ith level stores the maximum obtained including and excluding the ith element.
+Below image shows the state of the priority queue after every step:
+
+![knapsack problem 8](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/Knapsack%20Problem/Knapsack-problem%208.jpeg?raw=true)
+
+
+
 
 [⬅️ Back](/Data-cloud02/docs/week-5/knapsack-problem-page5)
