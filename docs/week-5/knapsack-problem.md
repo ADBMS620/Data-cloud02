@@ -78,7 +78,7 @@ For each item i and knapsack capacity j, we decide whether to pick the item or n
 ## [Expected Approach] Using Bottom-Up DP (Space-Optimized) – O(n x W) Time and O(W) Space
 > For calculating the current row of the dp[] array we require only previous row, but if we start traversing the rows from right to left then it can be done with a single row only
 
-[Next ➡️](knapsack-problem-page2.md)
+[Next ➡️](/Data-cloud02/docs/week-5/knapsack-problem-page2)
 
 
 
