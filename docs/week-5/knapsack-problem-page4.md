@@ -60,6 +60,6 @@ The approach to solve this problem is same but **DP tabulation(bottom-up)** meth
 
 **Auxiliary Space:** O(n*C)
 
-[⬅️ Back](knapsack-problem-page3.md)
+[⬅️ Back](knapsack-problem-page3.md)       [Next ➡️](knapsack-problem-page5.md)
 
 
