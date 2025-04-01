@@ -35,7 +35,7 @@ Maximum profit from all the possible solutions is 220
 
 **Approach:** The idea is to make pairs for the weight and the profits of the items and then try out all permutations of the array and including the weights until their is no such item whose weight is less than the remaining capacity of the knapsack. Meanwhile after including an item increment the profit for that solution by the profit of that item.
 
-[⬅️ Back](knapsack-problem-page2.md)       [Next ➡️](knapsack-problem-page4.md)
+[⬅️ Back](/Data-cloud02/docs/week-5/knapsack-problem-page2)       [Next ➡️](/Data-cloud02/docs/week-5/knapsack-problem-page4)
 
 
 
