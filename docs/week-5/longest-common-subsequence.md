@@ -63,3 +63,26 @@ LCS(“AB”, “A”) = max( LCS(“A”, “A”) , LCS(“AB”, “”) ) = 
 
 So overall result is 1 + 1 = 2
 ```
+
+## [Better Approach] Using Memoization (Top Down DP) – O(m * n) Time and O(m * n) Space
+
+To optimize the recursive solution, we use a **2D memoization table** of size $(m+1)×(n+1)(m+1)$ \times $(n+1)(m+1)×(n+1)$, initialized to $−1-1−1$ to track computed values. Before making recursive calls, we check this table to avoid redundant computations of overlapping subproblems. This prevents repeated calculations, improving efficiency through **memoization or tabulation.**
+![Longest Common Subsequence 1](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest-Common-Subsequence%201.jpeg?raw=true)
+
+
+
+## [Expected Approach 1] Using Bottom-Up DP (Tabulation) – O(m * n) Time and O(m * n) Space
+
+There are two parameters that change in the recursive solution and these parameters go from 0 to m and 0 to n. So we create a 2D dp array of size (m+1) x (n+1).  
+
+
+- We first fill the known entries when m is 0 or n is 0.
+- Then we fill the remaining entries using the recursive formula.
+
+Say the strings are **S1 = “AXTY”** and **S2 = “AYZX”**, Follow below :
+
+
+![Step 1](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest-Common-Subsequence%202.jpeg?raw=true)
+![Step 2](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest-Common-Subsequence%203.jpeg?raw=true)
+
+
