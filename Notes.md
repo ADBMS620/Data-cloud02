@@ -36,7 +36,7 @@ Here’s the **week-wise** breakdown of the topics covered:
 
 ### Week 5: Dynamic Programming
 
-- **[Knapsack Problem](/docs/week-5/knapsack-problem)**
+- **[Knapsack Problem](/Data-cloud02/docs/week-5/knapsack-problem)**
 
 ### 💡 Need Help?
 Check out our **[FAQs](/docs/faqs/)** for common questions.  
