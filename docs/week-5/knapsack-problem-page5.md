@@ -53,3 +53,9 @@ Since DP solution doesn’t always work just like in case of non-integer weight,
 Brute Force. With n items, there are 2n solutions to be generated, check each to see if they satisfy
 the constraint, save maximum solution that satisfies constraint. This solution can be expressed as tree.
 ```
+![ Knapsack Problem 4](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/Knapsack%20Problem/Knapsack-problem%204.jpg?raw=true)
+
+## 4. 0/1 Knapsack using Backtracking:
+```plainetext
+We can use Backtracking to optimize the Brute Force solution. In the tree representation, we can do DFS of tree. If we reach a point where a solution no longer is feasible, there is no need to continue exploring. In the given example, backtracking would be much more effective if we had even more items or a smaller knapsack capacity.
+```
