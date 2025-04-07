@@ -84,5 +84,16 @@ Say the strings are **S1 = “AXTY”** and **S2 = “AYZX”**, Follow below :
 
 ![Step 1](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest-Common-Subsequence%202.jpeg?raw=true)
 ![Step 2](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest-Common-Subsequence%203.jpeg?raw=true)
+![Step 3](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest%20Common%20Subsequence%204.jpeg?raw=true)
+![Step 4](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest%20Common%20Subsequence%205.jpeg?raw=true)
+![Step 5](https://github.com/ADBMS620/Data-cloud02/blob/master/docs/week-5/longest-common-subsequence/Longest%20Common%20Subsequence%206.jpeg?raw=true)
+
+## [Expected Approach 2] Using Bottom-Up DP (Space-Optimization):
+One important observation in the above simple implementation is, in each iteration of the outer loop we only need values from all columns of the previous row. So there is no need to store all rows in our DP matrix, we can just store two rows at a time and use them. We can further optimize to use only one array.
+
+**Applications of LCS**
+
+LCS is used to implement diff utility (find the difference between two data sources). It is also widely used by revision control systems such as Git for multiple changes made to a revision-controlled collection of files.
+
 
 
