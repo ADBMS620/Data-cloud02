@@ -6,10 +6,8 @@ show_sidebar: false
 toc: true
 ---
 # Floyd Warshall Alogrithm
-The Floyd Warshall Algorithm is an all-pair shortest path algorithm that uses Dynamic Programming to find the shortest distances between every pair of vertices in agraph,
-unlike Dijkstra and Bellman-Ford which are single source shortest path algorithms. This algorithm works for both the directed and undirected weighted graphs and 
-can handle graphs with both positive and negative weight edges.
-## Note:
+The Floyd Warshall Algorithm is an all-pair shortest path algorithm that uses Dynamic Programming to find the shortest distances between every pair of vertices in agraph,unlike Dijkstra and Bellman-Ford which are single source shortest path algorithms. This algorithm works for both the directed and undirected weighted graphs and can handle graphs with both positive and negative weight edges.
+### Note:
 It does not work for the graphs with negative cycles (where the sum of the edges in a cycle is negative).
 ### Idea Behind Floyd Warshall Algorithm:
 Suppose we have a graph graph[][] with V vertices from 0to V-1. Now we have to evaluate a dist[][] where dist[i][j] represents the shortest path between vertex i to j.
@@ -44,7 +42,7 @@ Sparse Graph: A graph in which the number of edges are very much low.
 No matter how many edges are there in the graph the Floyd Warshall Algorithm runs for O(V3) times therefore it is best suited for Dense graphs. 
 In the case of sparse graphs, Johnson’s Algorithm is more suitable. 
 
-## Real World Applications of Floyd-Warshall Algorithm
+### Real World Applications of Floyd-Warshall Algorithm
 In computer networking, the algorithm can be used to find the shortest path between all pairs of nodes in a network. This is termed as network routing.
 Flight Connectivity In the aviation industry to find the shortest path between the airports.
 GIS(Geographic Information Systems) applications often involve analyzing spatial data, such as road networks, to find the shortest paths between locations.
