@@ -41,6 +41,8 @@
         link: /docs/week-5/lcs/
       - name: Floyd Warshall Algorithm
         link: /docs/week-5/Floyd-warshall-Algorithm/ 
+      - name: Matrix Chain Multiplication
+        link: /docs/week-5/Matrix-Chain-Multiplication/ 
 
   - name: Week 6 - Graph Algorithms
     items:
