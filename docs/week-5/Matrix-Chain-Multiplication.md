@@ -64,18 +64,18 @@ However, we can observe that some problems are computed multiple times. To avoid
 of previously computed inputs.
 ![image](https://github.com/user-attachments/assets/f1a5917e-f629-4b4f-bae7-2902ce6a1f29)
 If observed carefully you can find the following two properties:
-### (1) Optimal Substructure:
+#### (1) Optimal Substructure:
   In the above case, we are breaking the bigger groups into smaller subgroups and solving them to finally find the minimum number of multiplications.
   Therefore, it can be said that the problem has optimal substructure property.
-### (2) Overlapping Subproblems:
+#### (2) Overlapping Subproblems:
     We can see in the recursion tree that the same subproblems are called again and again and this problem has the Overlapping Subproblems property. 
 So Matrix Chain Multiplication problem has both properties of a dynamic programming problem. So recomputations of same subproblems can be avoided by constructing  
 a temporary array memo[][] in a bottom up manner.
 Follow the below steps to solve the problem:
 - Build a matrix memo[][] of size n*n for memoization purposes.
 - Use the same recursive call as done in the above approach:
-   --When we find a range (i, j) for which the value is already calculated, return the minimum value for that range (i.e., memo[i][j]).
-   --Otherwise, perform the recursive calls as mentioned earlier.
+   -When we find a range (i, j) for which the value is already calculated, return the minimum value for that range (i.e., memo[i][j]).
+   -Otherwise, perform the recursive calls as mentioned earlier.
 -The value stored at memo[0][n-1] is the required answer.
 ### [Better Approach 2 ] Using Bottom-Up DP (Tabulation) – O(n*n*n) and O(n*n) Space
 In iterative approach, we initially need to find the number of multiplications required to multiply two adjacent matrices. We can use these values to find the
