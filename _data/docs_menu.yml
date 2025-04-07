@@ -39,13 +39,13 @@
         link: /docs/week-5/knapsack/
       - name: Longest Common Subsequence
         link: /docs/week-5/lcs/
+      - name: Floyd-Warshall Algorithm
+        link: /docs/week-5/Floyd-warshall-Algorithm/ 
 
   - name: Week 6 - Graph Algorithms
     items:
       - name: Dijkstra’s Algorithm
         link: /docs/week-6/dijkstra/
-      - name: Floyd-Warshall Algorithm
-        link: /docs/week-6/floyd-warshall/
-
+     
 
    
